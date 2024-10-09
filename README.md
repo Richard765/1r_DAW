@@ -1,1 +1,0 @@
-GIT para Primero de DAW de Programación.
