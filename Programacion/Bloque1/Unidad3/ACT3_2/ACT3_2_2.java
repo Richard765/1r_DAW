@@ -22,7 +22,6 @@ public class ACT3_2_2 {
 		} else {
 			System.out.println("El numero no es primo");
 		}
-		
 		scanner.close();
 	}
 }
