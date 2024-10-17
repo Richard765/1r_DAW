@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Explorer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        overflow-x: hidden;
+      }
+      header {
+        background-color: #1a1a1a;
+        padding: 20px 0;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      .solar-system {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        transition: all 0.5s ease;
+      }
+      .planet {
+        border-radius: 50%;
+        cursor: pointer;
+        display: inline-block;
+        transition: transform 0.5s ease, opacity 0.5s ease, left 0.5s ease;
+        position: relative;
+      }
+      .planet:hover {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+      }
+      .move-left {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%) scale(2);
+        z-index: 10;
+      }
+      #info-box {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid #fff;
+        padding: 20px;
+        display: none;
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30%;
+        z-index: 10; /* Asegura que esté por encima del planeta */
+        text-align: left;
+      }
+      #info-box h2 {
+        color: #ffcc00;
+      }
+      #info-box button {
+        background-color: #ffcc00;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        color: black;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+      #info-box button:hover {
+        background-color: #e6b800;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Planet Explorer</h1>
+      <p>Click on a planet to learn more about it!</p>
+    </header>
+
+    <div class="solar-system">
+      <div
+        class="planet"
+        id="mercury"
+        style="background-color: #aaa; width: 60px; height: 60px"
+        onclick="movePlanet('mercury', 'Mercury', 'Mercury is the closest planet to the Sun and is the smallest in our solar system.')"
+      ></div>
+      <div
+        class="planet"
+        id="venus"
+        style="background-color: #f5c842; width: 90px; height: 90px"
+        onclick="movePlanet('venus', 'Venus', 'Venus is the second planet from the Sun and has a thick, toxic atmosphere.')"
+      ></div>
+      <div
+        class="planet"
+        id="earth"
+        style="background-color: #3399ff; width: 100px; height: 100px"
+        onclick="movePlanet('earth', 'Earth', 'Earth is the third planet from the Sun and the only known planet to support life.')"
+      ></div>
+      <div
+        class="planet"
+        id="mars"
+        style="background-color: #e57373; width: 80px; height: 80px"
+        onclick="movePlanet('mars', 'Mars', 'Mars is the fourth planet and is known as the Red Planet because of its iron oxide surface.')"
+      ></div>
+      <div
+        class="planet"
+        id="jupiter"
+        style="background-color: #d48f2b; width: 150px; height: 150px"
+        onclick="movePlanet('jupiter', 'Jupiter', 'Jupiter is the largest planet in the solar system and is known for its Great Red Spot.')"
+      ></div>
+      <div
+        class="planet"
+        id="saturn"
+        style="background-color: #f7d38c; width: 130px; height: 130px"
+        onclick="movePlanet('saturn', 'Saturn', 'Saturn is famous for its stunning ring system and is the second-largest planet.')"
+      ></div>
+      <div
+        class="planet"
+        id="uranus"
+        style="background-color: #66ccff; width: 110px; height: 110px"
+        onclick="movePlanet('uranus', 'Uranus', 'Uranus is unique because it rotates on its side, and it has a pale blue color.')"
+      ></div>
+      <div
+        class="planet"
+        id="neptune"
+        style="background-color: #3366cc; width: 100px; height: 100px"
+        onclick="movePlanet('neptune', 'Neptune', 'Neptune is the farthest planet from the Sun and has a deep blue color.')"
+      ></div>
+    </div>
+
+    <div id="info-box">
+      <h2 id="planet-name"></h2>
+      <p id="planet-info"></p>
+      <button onclick="resetPlanets()">Go Back</button>
+    </div>
+
+    <script>
+      let activePlanet = null;
+
+      function movePlanet(planetId, planetName, planetInfo) {
+        // Hide all planets except the clicked one and move it to the left
+        const planets = document.querySelectorAll(".planet");
+        planets.forEach((planet) => {
+          if (planet.id !== planetId) {
+            planet.style.opacity = "0";
+          } else {
+            planet.classList.add("move-left");
+          }
+        });
+
+        // Show the information box on the right
+        document.getElementById("planet-name").innerText = planetName;
+        document.getElementById("planet-info").innerText = planetInfo;
+        document.getElementById("info-box").style.display = "block";
+
+        activePlanet = planetId;
+      }
+
+      function resetPlanets() {
+        // Show all planets again and reset their position
+        const planets = document.querySelectorAll(".planet");
+        planets.forEach((planet) => {
+          planet.style.opacity = "1";
+          planet.classList.remove("move-left");
+        });
+
+        // Hide the information box
+        document.getElementById("info-box").style.display = "none";
+
+        activePlanet = null;
+      }
+    </script>
+  </body>
+</html>
