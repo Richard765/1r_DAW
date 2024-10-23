@@ -3,7 +3,6 @@ public class ACT3_3_4 {
 		final int num = 3, MIN = 10, MAX = 99;
 		int [][] matriz = new int [num][num];
 		int mayor = MIN, menor = MAX, contar = 0, suma = 0;
-		double media = 0;
 		
 		//Dar valor a cada array
 		System.out.println();
@@ -42,6 +41,7 @@ public class ACT3_3_4 {
 				suma = matriz[i][j] + suma;
 			}
 		}
-		System.out.println("\nLa media es: " + (media = (double) suma / contar));
+		
+		System.out.println("\nLa media es: " + ((float) suma / contar));
 	}
 }
