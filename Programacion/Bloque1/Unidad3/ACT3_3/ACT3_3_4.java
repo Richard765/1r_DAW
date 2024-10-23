@@ -1,7 +1,7 @@
 public class ACT3_3_4 {
 	public static void main(String[] args) {
-		final int num = 3, MIN = 10, MAX = 99;
-		int [][] matriz = new int [num][num];
+		final int NUM = 3, MIN = 10, MAX = 99;
+		int [][] matriz = new int [NUM][NUM];
 		int mayor = MIN, menor = MAX, contar = 0, suma = 0;
 		
 		//Dar valor a cada array
@@ -42,6 +42,14 @@ public class ACT3_3_4 {
 			}
 		}
 		
-		System.out.println("\nLa media es: " + ((float) suma / contar));
+		/* Distintas maneras de sacar la media
+		La primera hace que se junte en la variable contar
+		contar = matriz.length * matriz[0].length;
+		
+		La segunda hace que la media se haga en esta operacion */
+		System.out.println("\nLa media es: " + ((float) suma / (matriz.length * matriz[0].length)));
+		
+		/*La tercera hace que use el for anterior
+		System.out.println("\nLa media es: " + ((float) suma / contar)); */
 	}
 }
