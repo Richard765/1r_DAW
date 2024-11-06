@@ -10,4 +10,9 @@ package ACT4_1;
  */
 public class ACT4_1_1 {
     
+    public static void main(String[] args) {
+        int[] array = {1,2,3,4,5,6,7,8,9,10};
+        
+        UtilitatsArrays.mostraArray(array);
+    }
 }
