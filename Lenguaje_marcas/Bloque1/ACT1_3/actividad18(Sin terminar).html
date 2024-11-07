@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo con Iframes</title>
+  <style>
+    iframe {
+      border: none;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .full-width {
+      width: 100%;
+    }
+
+    .quarter-width {
+      width: 25%;
+    }
+
+    .three-quarters {
+      width: 75%;
+    }
+
+    .half-width {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sección Verde: 100% de alto y ancho -->
+    <iframe src="https://marcosruiz.github.io/posts/atajos-de-teclado/" style="background-color: green;" class="full-width"></iframe>
+  </div>
+
+  <div class="container">
+    <!-- Sección Rosa y Amarilla -->
+    <div class="column">
+      <iframe src="https://olgacarreras.blogspot.com/" style="background-color: pink;" class="quarter-width"></iframe>
+      <iframe src="https://marcosruiz.github.io/posts/trabajar-visual-studio-code/" style="background-color: yellow;" class="three-quarters"></iframe>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Sección Gris y Marrón -->
+    <div class="column">
+      <iframe src="https://en.wikipedia.org/wiki/Tim_Berners-Lee" style="background-color: gray;" class="half-width"></iframe>
+      <iframe src="https://es.wikipedia.org/wiki/ARPANET" style="background-color: brown;" class="quarter-width"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
