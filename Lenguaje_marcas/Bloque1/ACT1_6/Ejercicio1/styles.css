@@ -1,0 +1,38 @@
+.starting-line {
+    background-color: #092424;
+}
+
+.others-lines {
+    background-color: #111313;
+}
+
+.others-lines:hover {
+    background-color:#273030 ;
+}
+td, th {
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+}
+
+.artist {
+    color: #9C9C9C;
+    font-size: 10px;
+    
+}
+
+.number {
+    padding: 18px;;
+}
+
+.title {
+    padding: 
+}
