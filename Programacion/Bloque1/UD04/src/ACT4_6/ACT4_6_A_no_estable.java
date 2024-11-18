@@ -4,13 +4,17 @@ import ACT4_1.UtilitatsArrays;
 import ACT4_3.UtilitatsConsola;
 import ACT4_3.UtilitatsMatrius;
 
-public class ACT4_6_A {
-
+/**
+ *
+ * @author Alumnat
+ */
+public class ACT4_6_A_no_estable {
+    
     public static final int SIMBOLO_VACIO = 0;
     public static final int SIMBOLO_GUSANO = 1;
     static final int SIMBOLO_HOJA = 9;
-    static final int NHOJAS = 5;
-
+    static final int NHOJAS = 4;
+    
     public static void main(String[] args) {
         int[][] tablero;
         int[] gusano; // x,y del gusano
@@ -21,7 +25,16 @@ public class ACT4_6_A {
         gusano = UtilitatsArrays.generaArray(2, 0, tablero.length - 1); // (x,y) del gusano
 
         utilizaTablero(tablero, gusano);
-        generarHojas(tablero);
+
+        // Generar hojas
+        for (int i = 0; i < NHOJAS; i++) {
+            int[] hoja;
+            do {
+                hoja = UtilitatsArrays.generaArray(2, 0, tablero.length - 1);
+            } while (tablero[hoja[0]][hoja[1]] != SIMBOLO_VACIO); // Evita superposición
+            tablero[hoja[0]][hoja[1]] = SIMBOLO_HOJA;
+        }
+
         do {
             mostrarTablero(tablero);
             UtilitatsArrays.mostraArray(gusano);
@@ -35,37 +48,22 @@ public class ACT4_6_A {
     public static void utilizaTablero(int[][] tablero, int[] gusano) {
         tablero[gusano[0]][gusano[1]] = SIMBOLO_GUSANO;
     }
-
     
-    public static void generarHojas(int[][] tablero) {
-        // Generar hojas
-        for (int i = 0; i < NHOJAS; i++) {
-            int[] hoja;
-            do {
-                hoja = UtilitatsArrays.generaArray(2, 0, tablero.length - 1);
-            } while (tablero[hoja[0]][hoja[1]] != SIMBOLO_VACIO); // Evita superposición
-            tablero[hoja[0]][hoja[1]] = SIMBOLO_HOJA;
-        }
-    }
-
     public static void mostrarTablero(int[][] tablero) {
         char caracter = ' ';
         for (int[] array : tablero) {
             for (int a : array) {
                 switch (a) {
-                    case SIMBOLO_VACIO ->
-                        caracter = ' ';
-                    case SIMBOLO_GUSANO ->
-                        caracter = 'O';
-                    case SIMBOLO_HOJA ->
-                        caracter = '*';
+                    case SIMBOLO_VACIO -> caracter = ' ';
+                    case SIMBOLO_GUSANO -> caracter = 'O';
+                    case SIMBOLO_HOJA -> caracter = '*';
                 }
                 System.out.print(caracter + " ");
             }
             System.out.println();
         }
     }
-
+    
     public static void cambiaPosicion(int[][] tablero, int[] gusano, int accion) {
         tablero[gusano[0]][gusano[1]] = SIMBOLO_VACIO; // Quitar el gusano en la antigua posicion
         final int MEDIDA = tablero.length;
@@ -83,10 +81,8 @@ public class ACT4_6_A {
             case 2: // DOWN
                 gusano[0] = (gusano[0] == MEDIDA - 1) ? 0 : gusano[0] + 1;
                 break;
-            case 0: //Salir
-                System.out.println("Saliendo del juego");
         }
-        
+
         tablero[gusano[0]][gusano[1]] = SIMBOLO_GUSANO; // Marcar la nueva posicion
     }
 }
