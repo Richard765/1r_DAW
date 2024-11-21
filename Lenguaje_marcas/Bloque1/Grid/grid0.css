@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 100px);
+    border: 3px lightgray solid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+}
