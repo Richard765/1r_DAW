@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    </head>
+    <body>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="30"><br><br>
+
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" maxlength="30"><br><br>
+
+        <label for="email">Email: <span style="color: red;">*</span></label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="asunto">Asunto:</label><br>
+        <select id="asunto" name="asunto" size="3">
+        <option value="presupuesto">Pedir presupuesto</option>
+        <option value="cita">Solicitar cita previa</option>
+        <option value="otros">Otros</option>
+        </select><br><br>
+
+        <label>¿Cómo nos ha conocido?</label><br>
+        <input type="checkbox" id="amigo" name="escogido" value="amigo">
+        <label for="amigo">Un amigo</label><br>
+        
+        <input type="checkbox" id="googleando" name="escogido" value="googleando">
+        <label for="googleando">Googleando</label><br>
+        
+        <input type="checkbox" id="spam" name="escogido" value="spam">
+        <label for="spam">Spam</label><br>
+        
+        <input type="checkbox" id="otros" name="escogido" value="otros">
+        <label for="otros">Otros</label><br><br>
+
+        <label for="mensaje">Escribe tu mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" maxlength="300" rows="5" cols="30"></textarea><br><br>
+
+        <input type="checkbox" id="rgpd" name="rgpd" required>
+        <label for="rgpd">Acepto la cláusula RGPD <span style="color: red;">*</span></label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </body>
+</html>

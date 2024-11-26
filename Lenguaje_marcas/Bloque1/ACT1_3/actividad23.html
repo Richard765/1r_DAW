@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+    <style>
+      div {
+        border: 1px solid #000000;
+        padding: 5px 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav ul li {
+        margin: 0 10px;
+      }
+
+      #informacion-extra div {
+        border: none;
+      }
+
+      #encabezado-principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #encabezado-principal img {
+        flex: 3;
+      }
+
+      #links-secundarios {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="encabezado-principal">
+        <img src="encabezado.jpg" alt="Encabezado" style="width: 300px; height: 100px;">
+        <div id="links-secundarios">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#blog">Blog</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div id="categorias">
+        <ul>
+          <li><a href="#categoria1">Categoría 1</a></li>
+          <li><a href="#categoria2">Categoría 2</a></li>
+          <li><a href="#categoria3">Categoría 3</a></li>
+          <li><a href="#categoria4">Categoría 4</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Trabaja duro para ser vago</h2>
+      </section>
+
+      <section>
+        <div style="display: flex;">
+          <div style="flex: 1;">
+            <img src="imagen.jpg" alt="Imagen artículo 1" style="width: 100%; height: auto;">
+          </div>
+          <div style="flex: 2;">
+            <h3>Lorem Fistrum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+              Ut eget dapibus orci, sit amet elementum velit. 
+              Sed consectetur, tellus ac aliquam lacinia, leo odio sagittis nulla,
+              a consectetur lectus sapien vel tortor. Praesent condimentum pretium
+              ligula in fermentum. Praesent eu mi sed eros tincidunt fermentum.
+            </p>
+            <button>Leer más</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <video controls style="width: 100%; height: 400px">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+      </section>
+
+      <section style="display: flex; justify-content: space-between;">
+        <div style="flex: 1;">
+          <h3>Lorem Fistrum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+            Ut eget dapibus orci, sit amet elementum velit. 
+            Sed consectetur, tellus ac aliquam lacinia, leo odio sagittis nulla,
+            a consectetur lectus sapien vel tortor. Praesent condimentum pretium
+            ligula in fermentum. Praesent eu mi sed eros tincidunt fermentum.
+          </p>
+          <button>Leer más</button>
+        </div>
+        <div style="width: 300px; height: 300px;">
+          <img src="imagen.jpg" alt="Imagen artículo 2" style="width: 100%; height: auto;">
+        </div>
+      </section>
+
+      <section id="informacion-extra" style="display: flex; justify-content: space-between;">
+        <div style="flex: 1;">
+          <h3>Sabías que...</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+            Ut eget dapibus orci, sit amet elementum velit. 
+            Sed consectetur, tellus ac aliquam lacinia, leo odio sagittis nulla,
+            a consectetur lectus sapien vel tortor. Praesent condimentum pretium
+            ligula in fermentum. Praesent eu mi sed eros tincidunt fermentum.
+          </p>
+        </div>
+        <div style="flex: 1;">
+          <h3>Contacto</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+            Ut eget dapibus orci, sit amet elementum velit. 
+            Sed consectetur, tellus ac aliquam lacinia, leo odio sagittis nulla,
+            a consectetur lectus sapien vel tortor. Praesent condimentum pretium
+            ligula in fermentum. Praesent eu mi sed eros tincidunt fermentum.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>
