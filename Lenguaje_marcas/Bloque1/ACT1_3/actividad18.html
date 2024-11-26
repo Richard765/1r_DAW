@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores en Grid con Iframes</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 400px);
+            gap: 10px;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .verde {
+            grid-column: 1 / 5;
+            grid-row: 1;
+            background-color: green;
+        }
+
+        .rosa {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: pink;
+        }
+
+        .rosa2 {
+            grid-column: 1;
+            grid-row: 3;
+            background-color: pink;
+        }
+
+        .amarillo {
+            grid-column: 2 / 5;
+            grid-row: 2;
+            background-color: yellow;
+        }
+
+        .gris {
+            grid-column: 2;
+            grid-row: 3;
+            background-color: gray;
+        }
+
+        .gris2 {
+            grid-column: 3;
+            grid-row: 3;
+            background-color: gray;
+        }
+
+        .marron {
+            grid-column: 4;
+            grid-row: 3;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <iframe class="verde" src="https://marcosruiz.github.io/posts/atajos-de-teclado/"></iframe>
+    <iframe class="rosa" src="https://olgacarreras.blogspot.com/"></iframe>
+    <iframe class="rosa2" src="https://olgacarreras.blogspot.com/"></iframe>
+    <iframe class="amarillo" src="https://marcosruiz.github.io/posts/trabajar-visual-studio-code/"></iframe>
+    <iframe class="gris" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee"></iframe>
+    <iframe class="gris2" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee"></iframe>
+    <iframe class="marron" src="https://es.wikipedia.org/wiki/ARPANET"></iframe>
+</body>
+</html>
