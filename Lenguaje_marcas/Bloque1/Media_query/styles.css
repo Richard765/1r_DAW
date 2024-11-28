@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+   flex-direction: column;
+}
+
+.box {
+    background: gold;
+    padding: 1rem;
+}
+
+.box:nth-of-type(2) {
+    background: dodgerblue;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+}
