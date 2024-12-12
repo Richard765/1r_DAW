@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
