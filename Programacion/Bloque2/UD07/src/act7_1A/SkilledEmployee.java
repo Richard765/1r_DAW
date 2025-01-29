@@ -8,8 +8,20 @@ package act7_1A;
  *
  * @author Richard
  */
-public class Main {
-    public static void main(String() args) {
-        Persona 1 = new Persona ("Maria");
+public class SkilledEmployee {
+    //String[] skilllist;
+    
+    public String toString() {
+        
     }
+    
+    public boolean addSkill(String skill) {
+        
+    }
+    
+    public boolean removeSkill(String skill) {
+        
+    }
+    
+    public 
 }

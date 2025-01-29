@@ -4,6 +4,8 @@
  */
 package act7_1A;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Richard
@@ -34,6 +36,10 @@ public class Manager extends Employee {
     
     public boolean removeEmployee(Employee e){
         return this.staff.remove(e);
+    }
+    
+    public getEmployees() {
+        
     }
     
     public String printManager() {

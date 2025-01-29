@@ -8,8 +8,6 @@ package act7_1A;
  *
  * @author Richard
  */
-public class Main {
-    public static void main(String() args) {
-        Persona 1 = new Persona ("Maria");
-    }
+public class Persona {
+    
 }
