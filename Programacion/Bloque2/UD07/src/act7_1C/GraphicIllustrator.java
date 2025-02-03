@@ -1,4 +1,4 @@
-package ACT7_1C;
+package act7_1C;
 
 class GraphicIllustrator extends SkilledEmployee {
 
