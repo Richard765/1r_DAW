@@ -1,48 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package act7_1A;
+package ACT7_1C;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author Richard
- */
-public class Manager extends Employee {
-    private String deptName;
-    private ArrayList<Employee> staff;
+class Manager extends Employee {
+    private ArrayList<Employee> employeeList;
 
-    public Manager(String deptName, int empId, String name, String ssn, double salary) {
-        super(empId, name, ssn, salary);
-        this.deptName = deptName;
-        this.staff = new ArrayList<>();
+    public Manager(String name, String jobTitle, String level) {
+        super(name,jobTitle, level);
+        this.employeeList = new ArrayList<>();
     }
     
-    public String getDeptName() {
-        return deptName;
+    public ArrayList getEmployees() {
+        return this.employeeList;
     }
     
-    public boolean addEmployee(Employee e) {
-        for (Employee s : this.staff)
-            if (s.equals(e.getName()))
-                return false;
-            else {
-                this.staff.add(e);
-                return true;
-            }
+    public boolean addEmployee(Employee e) {  // setEmployee()
+        if (this.employeeList.contains(e))
+            return false;
+        else {
+            this.employeeList.add(e);
+            return true;
+        }
     }
     
-    public boolean removeEmployee(Employee e){
-        return this.staff.remove(e);
+    public boolean removeEmployee(Employee e) {
+        return this.employeeList.remove(e);
     }
     
-    public getEmployees() {
-        
+    @Override
+    public String toString() {
+        String text = "Manager {" + super.toString() + ", Employee List=";
+        for (Employee e : this.employeeList)
+            text = text + "\n\t" + e.toString();
+        return text + "}";
     }
     
-    public String printManager() {
-        return super.printEmployee() + "Departamento " + deptName;
-    }   
 }
