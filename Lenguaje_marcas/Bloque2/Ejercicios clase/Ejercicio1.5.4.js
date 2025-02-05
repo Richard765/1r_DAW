@@ -9,3 +9,5 @@ let post = {
     ],
     isLive: true
 };
+
+console.log(post);

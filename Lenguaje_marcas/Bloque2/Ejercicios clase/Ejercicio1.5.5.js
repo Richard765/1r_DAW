@@ -7,5 +7,5 @@ function Post(title, body, author) {
     this.isLive = false;
 }
 
-let newPost = new Post("a", "b", "c");
+const newPost = new Post("a", "b", "c");
 console.log(newPost);
