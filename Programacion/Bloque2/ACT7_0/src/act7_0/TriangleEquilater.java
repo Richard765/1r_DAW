@@ -8,9 +8,6 @@ package act7_0;
  *
  * @author Richard
  */
-abstract class FiguraGeometrica {
-    abstract double calculaPerimetro();
-    abstract double calculaArea();
-    abstract int calculaLados();
+public class TriangleEquilater {
     
 }

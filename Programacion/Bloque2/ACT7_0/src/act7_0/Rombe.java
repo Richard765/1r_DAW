@@ -8,19 +8,21 @@ package act7_0;
  *
  * @author Richard
  */
-public class Quadrat extends FiguraGeometrica {
-    private double costado;
-    private int lados;
+public class Rombe extends FiguraGeometrica{
+    public double altura;
+    public double anchura;
+    public int lados;
     
     @Override
     public double calculaPerimetro() {
-        return this.costado * 4;
+        
     }
     
     @Override
     public double calculaArea() {
-        return Math.pow(this.costado, 2);
+        
     }
+    
     @Override
     public int calculaLados() {
         return this.lados = 4;

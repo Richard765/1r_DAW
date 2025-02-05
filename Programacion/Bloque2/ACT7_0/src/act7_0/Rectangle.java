@@ -9,7 +9,24 @@ package act7_0;
  * @author Richard
  */
 public class Rectangle extends FiguraGeometrica {
-    private int costat1;
-    private int costat2;
+    private double ancho;
+    private double altura;
+    private int lados;
+    
+    @Override
+    public double calculaPerimetro() {
+        return 2 * (ancho + altura);
+    }
+    
+    @Override
+    public double calculaArea() {
+        return ancho * altura;
+    }
+    
+    @Override
+    public int calculaLados() {
+        return this.lados = 4;
+    }
+    
     
 }

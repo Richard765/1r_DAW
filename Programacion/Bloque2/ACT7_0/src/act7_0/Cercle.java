@@ -8,6 +8,22 @@ package act7_0;
  *
  * @author Richard
  */
-public class Cercle {
+public class Cercle extends FiguraGeometrica{
+    private double radio;
+    private int lados;
     
+    @Override
+    public double calculaPerimetro() {
+        return 2 * Math.PI * radio;
+    }
+    
+    @Override
+    public double calculaArea() {
+        return Math.PI * (Math.pow(radio, 2));
+    }
+    
+    @Override
+    public int calculaLados() {
+        return this.lados = 0;
+    }
 }
