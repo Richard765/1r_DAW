@@ -12,12 +12,12 @@ function countOccurrences(array, searchElement) {
     return count;
     */
 
-    /*Solucion 2*/
+    /*Solucion 2
     array.reduce((accumulator, current) => {
         const occurrence = (current === searchElement) ? 1 : 0;
         return accumulator + occurrence;
     }, 0);
-    
+    */
 
     /*Solucion 3
     return array.reduce((accumulator, current) => {
