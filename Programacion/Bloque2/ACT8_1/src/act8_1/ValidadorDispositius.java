@@ -8,17 +8,10 @@ package act8_1;
  *
  * @author Richard
  */
-public class ValidadorDispositius {
-    public void setPatrons(String patroCodiPin, String patroTeclat, String patroEmprempta, String patroRostre) {
-        this.nom = nom;
-        this.patroCodiPin = patroCodiPin;    
-        this.patroTeclat = patroTeclat;
-        this.patroEmprempta = patroEmprempta;
-        this.patroRostre = patroRostre;
-    }
+public interface ValidadorDispositius {
     
-    public boolean validaPatrons(Persona p) {
-        return true;
-    }
+    abstract void setPatrons(String patroCodiPin, String patroTeclat, String patroEmprempta, String patroRostre);
+    abstract boolean validaPatrons(Object o);
     
 }
+    

@@ -4,19 +4,21 @@ function hello() {
 
 buttonC.onclick = function () {
     alert("Hola C");
-}
+};
 
 buttonE.onclick = hello;
 
-buttonF.addEventListener("click", obj);
+buttonF.addEventListener("click", hello);
 
-buttonG.onclick = function (event {
-    console.log("Hola G");
-})
+buttonG.onclick = function (event) {
+    console.log("Evento: ", event.type);
+    console.log("Elemento objetivo: ", event.currentTarget);
+    console.log("Coordenadas: X=", event.clientX, "Y=", event.clientY);
+};
 
 let obj = {
-    handleEvent(event){
-        aswitch (event.type) {
+    handleEvent(event) {
+        switch (event.type) {
             case "click":
                 alert("Hola H");
                 break;
@@ -25,7 +27,7 @@ let obj = {
                 break;
         }
     }
-}
+};
 
 buttonH.addEventListener("click", obj);
 buttonH.addEventListener("mouseup", obj);

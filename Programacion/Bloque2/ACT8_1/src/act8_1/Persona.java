@@ -11,12 +11,16 @@ package act8_1;
 
 
 
-public class Persona {
+public class Persona extends ValidadorDispositius {
     private String nom;
     private String patroCodiPin;
     private String patroTeclat;
     private String patroEmprempta;
     private String patroRostre;
+
+    Persona(String joan, String string, Object object, Object object0, Object object1) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     //Getters
     public String getNom() {
