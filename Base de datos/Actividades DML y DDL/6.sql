@@ -22,3 +22,7 @@ WHERE d.DEPARTMENT_ID NOT IN (SELECT e.department_id
 							FROM employees e 
 							GROUP BY e.DEPARTMENT_ID
 							HAVING COUNT(*) >= 4);
+                            
+/*15*/
+SELECT e.first_name, e.last_name FROM jobs j
+INNER JOIN employees e ON j.job_id = e.job_id;

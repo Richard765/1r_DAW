@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando del DOM en JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 1. y 2. Seleccionar y modificar Elementos del DOM  -->
+    <h1 id="title">ManipulanDOM</h1>
+
+    <div class="main-div">
+      Imagen de ejemplo: <br />
+      <img src="javascript.svg" alt="Imagen original" />
+    </div>
+
+
+    <!-- 3. Crear y eliminar elementos -->
+    <div class="old-div">
+      Este DIV se eliminará.
+    </div>
+
+    <ul class="list">
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Ruby</li>
+      <li>Java</li>
+      <li>PHP</li>
+    </ul>
+
+
+    <!-- 4. Eventos en el DOM -->
+    <button class="buttonA">Presiona aquí (A)</button>
+    <br/>
+    <button class="buttonB">Presiona aquí (B)</button>
+
+
+    <!-- 5. Crear una lista dinámica -->
+    <div>
+      <input
+        type="text"
+        id="itemInput"
+        placeholder="Añade un ítem a la lista"
+      />
+      <button id="addButton">Añadir</button>
+      <ul id="dynamicList"></ul>
+    </div>
+
+
+    <!-- 6. Filtrado de elementos -->
+    <!-- <input type="text" id="filterInput" placeholder="Filtrar ítems..." />
+    <ul class="itemsList">
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Ruby</li>
+      <li>Java</li>
+      <li>PHP</li>
+    </ul> -->
+
+
+    <!-- 7. Drag and Drop de elementos -->
+    <!-- <div id="draggable" draggable="true">Arrástrame</div> 
+    <div id="dropzone">Zona para soltar</div> -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

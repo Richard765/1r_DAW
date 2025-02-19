@@ -10,21 +10,26 @@ package act8_3;
  */
 public class Llibre extends PublicacioBase {
     private String autor;
-    private double preu;
 
-    public Llibre(String autor, double preu, String titol, int anyPublicacio) {
-        super(titol, anyPublicacio);
+    public Llibre(String autor, String titol, int anyPublicacio, double preu) {
+        super(titol, anyPublicacio, preu);
         this.autor = autor;
-        this.preu = preu;
+    }
+
+
+
+    public void setAutor(String autor) {
+        this.autor = autor;
     }
     
     @Override
     public double calculaPreu() {
-        return preu * 1.21;
+        return getPreu() * 1.21;
     }
     
     @Override
     public String toString() {
-        return super.toString() + "Libro: " + getTitol() + " Autor: " + autor + " Año publicacion: " + getAnyPublicacio() + " Precio: " + calculaPreu();
+        return super.toString() + "Libro: " + getTitol() + " | Autor: " + autor + 
+                " | Fecha publicacion: " + getAnyPublicacio() + " | Precio: " + calculaPreu() + " euros"+ "}";
     }
 }

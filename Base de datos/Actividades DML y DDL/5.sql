@@ -155,8 +155,10 @@ INSERT INTO departments (department_id, department_name, manager_id, location_id
 SELECT 85, "Sales abroad", manager_id, location_id
 FROM departments
 WHERE department_id = 80;
-SELECT * FROM departments
-WHERE department_id = 80 OR department_id = 85;
+
+INSERT INTO departments(department_id, department_name, manager_id, location_id)
+VALUES (SELECT 85, "Sales abroad", manager_id, location_id FROM departments WHERE department_id = 80);
+
 
 /*U*/
 UPDATE locations
