@@ -53,3 +53,35 @@ addButton.addEventListener("click", function () {
 });
 
 //6 Filtrado de elementos del DOM
+const filterInput = document.querySelector("#filterInput");
+const itemsList = document.querySelector(".itemList"); 
+
+filterInput.addEventListener("keyup", function() {
+	const term = filterInput.value.toLowerCase();
+	const items = itemsList.getElementsByTagName("li");
+
+	Array.from(items).forEach(function(item) {
+		if (item.textContent.toLowerCase().includes(term)) {
+			item.style.display = "block";
+		} else {
+			item.style.display = "none";
+		}	
+	});
+});
+
+//7 Drag and drop
+const draggable = document.getElementById("draggable");
+const dropzone = document.getElementById("dropzone");
+
+draggable.addEventListener("dragstart", function (event) {
+	setTimeout(() => { this.style.display = "none"; }, 0);
+});
+
+dropzone.addEventListener("dragover", function (event) {
+	event.preventDefault();
+});
+
+dropzone.addEventListener("drop", function () {
+	draggable.style.display = "block";
+	this.append(draggable);
+});

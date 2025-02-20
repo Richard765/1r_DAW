@@ -1,5 +1,5 @@
 window.onload = (event) => {
-    alert("Bienvenido");
+    window.alert("Bienvenido");
     
     cat.addEventListener("change", cambio_categoria);
 };
