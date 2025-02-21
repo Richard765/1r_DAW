@@ -72,3 +72,59 @@ SELECT CONCAT(c.cust_first_name, " ", c.cust_last_name) Customer_name, COUNT(o.O
 INNER JOIN orders o ON c.CUSTOMER_ID = o.CUSTOMER_ID
 GROUP BY Customer_name
 HAVING Orders > 4;
+
+/*B*/
+SELECT CONCAT(cust_first_name, " ", cust_last_name), date_of_birth FROM customers
+WHERE date_of_birth > '2025-02-21';
+
+UPDATE customers SET date_of_birth = NULL
+WHERE date_of_birth > '2025-02-21';
+
+SELECT CONCAT(cust_first_name, " ", cust_last_name), date_of_birth FROM customers
+WHERE date_of_birth IS NULL;
+
+/*Listado todos los almacenes que no tengan inventario*/
+SELECT w.warehouse_name FROM warehouses w
+LEFT JOIN inventories i ON w.WAREHOUSE_ID = i.WAREHOUSE_ID
+WHERE i.WAREHOUSE_ID IS NULL;
+
+SELECT w.WAREHOUSE_NAME FROM warehouses w
+WHERE w.WAREHOUSE_ID IN (SELECT i.WAREHOUSE_ID FROM inventories i);
+
+/*De cada almacen que articulos tiene y cantidad*/
+SELECT w.warehouse_name, pi.PRODUCT_NAME, i.QUANTITY_ON_HAND FROM warehouses w
+INNER JOIN inventories i ON w.WAREHOUSE_ID = i.WAREHOUSE_ID
+INNER JOIN product_information pi ON i.PRODUCT_ID = pi.PRODUCT_ID
+ORDER BY w.WAREHOUSE_NAME, pi.PRODUCT_NAME;
+
+/*De cada almacen cuantos articulos distintos tiene*/
+SELECT w.warehouse_name, COUNT(DISTINCT i.PRODUCT_ID) different_products FROM warehouses w
+INNER JOIN inventories i ON w.WAREHOUSE_ID = i.WAREHOUSE_ID
+GROUP BY w.WAREHOUSE_NAME
+ORDER BY w.WAREHOUSE_NAME;
+
+/*Inventario de producto por region*/
+SELECT SUM(i.quantity_on_hand) productos, r.region_name FROM inventories i
+INNER JOIN warehouses w ON i.WAREHOUSE_ID = w.WAREHOUSE_ID
+INNER JOIN locations l ON w.LOCATION_ID = l.LOCATION_ID
+INNER JOIN countries c ON l.COUNTRY_ID = c.COUNTRY_ID
+INNER JOIN regions r ON c.REGION_ID = r.REGION_ID
+GROUP BY r.REGION_NAME;
+
+/*De cada empleado de cuantos customers es manager*/
+SELECT CONCAT(e.first_name, " ", e.last_name) employee_name, COUNT(c.customer_id) FROM employees e
+INNER JOIN customers c ON e.EMPLOYEE_ID = c.ACCOUNT_MGR_ID
+GROUP BY employee_name;
+
+/*Por cada order una con el total de order items (suma), ordertotal*/
+SELECT o.order_id, SUM(oi.QUANTITY * oi.unit_price) product_sum, o.ORDER_TOTAL FROM orders o
+INNER JOIN order_items oi ON o.ORDER_ID = oi.ORDER_ID
+GROUP BY o.ORDER_ID, o.ORDER_TOTAL
+ORDER BY o.ORDER_ID;
+
+/*Solo mostrar donde pxq no es igual al ordertotal*/
+SELECT o.order_id, SUM(oi.QUANTITY * oi.unit_price) product_sum, o.ORDER_TOTAL FROM orders o
+INNER JOIN order_items oi ON o.ORDER_ID = oi.ORDER_ID
+GROUP BY o.ORDER_ID, o.ORDER_TOTAL
+HAVING product_sum != o.ORDER_TOTAL
+ORDER BY o.ORDER_ID;

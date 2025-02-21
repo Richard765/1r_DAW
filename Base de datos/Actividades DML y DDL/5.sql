@@ -101,7 +101,7 @@ AND salary NOT BETWEEN min_salary AND max_salary
 ORDER BY employee_id;
 
 /*R*/
-SELECT e.employee_id, CONCAT(first_name, " ", last_name), de_e.department_name current_department, de_jh.department_name old_department
+SELECT e.employee_id, CONCAT(first_name, " ", last_name) employee_name, de_e.department_name current_department, de_jh.department_name old_department
 FROM job_history jh
 INNER JOIN employees e ON jh.EMPLOYEE_ID = e.EMPLOYEE_ID
 INNER JOIN departments d ON jh.DEPARTMENT_ID = d.DEPARTMENT_ID
@@ -109,6 +109,12 @@ INNER JOIN departments de_jh ON jh.DEPARTMENT_ID = de_jh.DEPARTMENT_ID
 INNER JOIN departments de_e ON e.DEPARTMENT_ID = de_e.DEPARTMENT_ID
 WHERE de_e.department_name != de_jh.department_name
 ORDER BY e.EMPLOYEE_ID;
+
+SELECT e.employee_id, CONCAT(first_name, " ", last_name) employee_name, d1.department_name current_department, d2.department_name old_department
+FROM employees e
+INNER JOIN job_history jh ON e.EMPLOYEE_ID = jh.EMPLOYEE_ID
+INNER JOIN departments d1 ON jh.DEPARTMENT_ID = d1.DEPARTMENT_ID
+INNER JOIN departments d2 ON e.DEPARTMENT_ID = d2.DEPARTMENT_ID;
 
 /*S*/
 SELECT e.employee_id, CONCAT(first_name, " ", last_name), j.job_title current_job, j_jh.job_title old_job
@@ -158,7 +164,6 @@ WHERE department_id = 80;
 
 INSERT INTO departments(department_id, department_name, manager_id, location_id)
 VALUES (SELECT 85, "Sales abroad", manager_id, location_id FROM departments WHERE department_id = 80);
-
 
 /*U*/
 UPDATE locations
