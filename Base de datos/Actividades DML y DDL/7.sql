@@ -128,3 +128,13 @@ INNER JOIN order_items oi ON o.ORDER_ID = oi.ORDER_ID
 GROUP BY o.ORDER_ID, o.ORDER_TOTAL
 HAVING product_sum != o.ORDER_TOTAL
 ORDER BY o.ORDER_ID;
+
+-- Display the translated descriptions which has more than 500 characters on the table PRODUCT_DESCRIPTION
+SELECT TRANSLATED_DESCRIPTION FROM product_descriptions
+WHERE length(TRANSLATED_DESCRIPTION) >= 500; 
+
+-- Display all products which have any repeated translated description in different languages
+SELECT product_id, translated_description
+FROM product_descriptions
+GROUP BY product_id, translated_description
+HAVING COUNT(*) > 1;
