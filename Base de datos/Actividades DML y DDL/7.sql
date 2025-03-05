@@ -138,3 +138,42 @@ SELECT product_id, translated_description
 FROM product_descriptions
 GROUP BY product_id, translated_description
 HAVING COUNT(*) > 1;
+
+-- Add a new location (5000- &#39;Osaka&#39;) based on the city which name is &#39;Tokyo&#39;
+INSERT INTO locations (location_id, STREET_ADDRESS, POSTAL_CODE, city, STATE_PROVINCE, COUNTRY_ID)
+SELECT 5000, STREET_ADDRESS, POSTAL_CODE, 'Osaka', STATE_PROVINCE, COUNTRY_ID FROM locations
+WHERE city = 'Tokyo';
+
+select * FROM locations
+WHERE CITY = 'TOKYO' OR CITY = 'Osaka';
+
+-- Increase of 15% the salary of employees related to any department sited in &#39;London&#39;
+UPDATE employees SET salary = salary * 1.15
+WHERE department_id IN (SELECT department_id 
+	FROM departments d
+    INNER JOIN locations l ON d.LOCATION_ID = l.LOCATION_ID 
+    WHERE l.CITY = 'London');
+    
+-- Display all warehouses sorted by theirs quantity on hand
+SELECT w.warehouse_name, SUM(i.quantity_on_hand) quantity FROM warehouses w
+INNER JOIN inventories i ON w.WAREHOUSE_ID = i.WAREHOUSE_ID
+GROUP BY w.WAREHOUSE_NAME
+ORDER BY quantity;
+
+SELECT e.nombre, e.salario, d.dept_name AS departamento
+FROM Empleados e
+INNER JOIN Departamentos d ON e.id_departamento = d.id_departamento
+WHERE e.salario > (
+    SELECT AVG(salario)
+    FROM Empleados
+    WHERE id_departamento = e.id_departamento
+);
+
+SELECT name_carrera, COUNT(estudiante_id) estudiantes FROM estudiantes e
+INNER JOIN carrera c ON e.carrera_id = c.carrera_id
+GROUP BY name_carrera
+ORDER BY estudiantes DESC;
+
+SELECT nombre, email FROM estudiantes
+WHERE email LIKE '%email%';
+
