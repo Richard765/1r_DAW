@@ -10,3 +10,4 @@ button.addEventListener("click", function () {
     let resultat = comptarVocals(texto.value);
     document.getElementById("result").textContent = resultat;
 });
+
