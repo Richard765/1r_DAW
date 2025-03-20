@@ -1,0 +1,46 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/Richard/Desktop/1r_DAW/Programacion/Bloque2/EjemploRefactor1/src/main/java'
+-charset UTF-8
+-author
+-version
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Richard/Desktop/1r_DAW/Programacion/Bloque2/EjemploRefactor1/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'PruebaEntornos 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'PruebaEntornos 1.0-SNAPSHOT API'
+com.mycompany.ejemplorefactor
+'C:/Users/Richard/Desktop/1r_DAW/Programacion/Bloque2/EjemploRefactor1/src/main/java/com/mycompany/ejemplorefactor/EjemploRefactor1.java'
+'C:/Users/Richard/Desktop/1r_DAW/Programacion/Bloque2/EjemploRefactor1/src/main/java/com/mycompany/ejemplorefactor/EjemploRefactor2.java'
+'C:/Users/Richard/Desktop/1r_DAW/Programacion/Bloque2/EjemploRefactor1/src/main/java/com/mycompany/ejemplorefactor/EjemploRefactor3.java'
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\src\main\java = 1738603931007
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\allclasses-index.html = 1739819176071
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\allpackages-index.html = 1739819176079
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\element-list = 1739819175941
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\help-doc.html = 1739819176160
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\index-all.html = 1739819176139
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\index.html = 1739819176149
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\member-search-index.js = 1739819176094
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\module-search-index.js = 1739819176084
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\overview-tree.html = 1739819176036
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\package-search-index.js = 1739819176087
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\search.html = 1739819176143
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\tag-search-index.js = 1739819176097
+C:\Users\Richard\Desktop\1r_DAW\Programacion\Bloque2\EjemploRefactor1\target\site\apidocs\type-search-index.js = 1739819176091
