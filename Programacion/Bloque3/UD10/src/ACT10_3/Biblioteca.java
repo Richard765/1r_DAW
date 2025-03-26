@@ -23,6 +23,12 @@ public class Biblioteca {
     private Map<String, List<Llibre>> titolsDisponibles;
 
     //Constructor
+    public Biblioteca(Set<Llibre> llibresDisponibles, Queue<Llibre> llibresPrestats, Map<String, List<Llibre>> titolsDisponibles) {
+        this.llibresDisponibles = llibresDisponibles;
+        this.llibresPrestats = llibresPrestats;
+        this.titolsDisponibles = titolsDisponibles;
+    }
+    
     public Biblioteca() {
         llibresDisponibles = new HashSet<>();
         llibresPrestats = new LinkedList<>();
@@ -42,26 +48,44 @@ public class Biblioteca {
     }
     
     public Llibre cercaLlibreDisponible(String titol) {
+        for (Llibre l : this.llibresDisponibles) {
+            if (l.getTitol().equals(titol)) {
+                return l;
+            }
+        }
         return null;
     }
     
     public void prestaLlibre(String titol){
-        
+        Llibre l = cercaLlibreDisponible(titol);
+        if (l != null) {
+            this.llibresDisponibles.remove(l);
+            this.llibresPrestats.offer(l);
+        }
     }
     
     public void tornaLlibre() {
-
+        Llibre l = llibresPrestats.poll();
+        if (llibresPrestats != null) {
+            this.llibresDisponibles.add(l);
+        }
     }
     
     public void mostraLlibresDisponibles() {
-        
+        for (Llibre l : llibresDisponibles) {
+            System.out.println(l.toString());
+        }
     }
     
     public void mostraTitolsDisponibles() {
-        
+        for (String t : titolsDisponibles.keySet()) {
+            System.out.println(t + " " + this.titolsDisponibles.get(t).toString());
+        }
     }
     
     public void mostraLlibresPrestats() {
-        
+        for (Llibre l : llibresPrestats) {
+            System.out.println(l.toString());
+        }
     }
 }

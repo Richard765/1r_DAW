@@ -5,7 +5,10 @@
 package ACT10_2;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 
 /**
  *
@@ -29,5 +32,11 @@ public class Main {
         agenda.afegeixDia(LocalDate.of(2024, 1, 2), "Tasca2", "Tasca3");
         
         System.out.println(agenda.obteTasca(LocalDate.of(2024, 01, 02)));
+        
+        List agendaOrdenada = new ArrayList<>(agenda.dies);  // un 'Set' no es pot ordenar , cal transformar el 'Set' a 'ArrayList'
+        
+        Collections.sort(agendaOrdenada);
+        
+        System.out.println(agendaOrdenada);
     }
 }
