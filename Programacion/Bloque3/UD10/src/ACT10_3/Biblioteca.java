@@ -23,12 +23,6 @@ public class Biblioteca {
     private Map<String, List<Llibre>> titolsDisponibles;
 
     //Constructor
-    public Biblioteca(Set<Llibre> llibresDisponibles, Queue<Llibre> llibresPrestats, Map<String, List<Llibre>> titolsDisponibles) {
-        this.llibresDisponibles = llibresDisponibles;
-        this.llibresPrestats = llibresPrestats;
-        this.titolsDisponibles = titolsDisponibles;
-    }
-    
     public Biblioteca() {
         llibresDisponibles = new HashSet<>();
         llibresPrestats = new LinkedList<>();

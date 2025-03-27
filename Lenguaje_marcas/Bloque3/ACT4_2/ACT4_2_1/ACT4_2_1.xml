@@ -1,0 +1,23 @@
+<portatiles>
+    <portatil>
+        <nom>Asus 34-HB</nom>
+        <CPUs>4 nuclis</CPUs>
+        <RAM>4GB</RAM>
+        <pantalla>15"</pantalla>
+        <software>Antivirus, SO Microsoft, Office 360</software>
+    </portatil>
+    <portatil>
+        <nom>Razor 578-H</nom>
+        <CPUs>8 nuclis</CPUs>
+        <RAM>8GB</RAM>
+        <pantalla>16"</pantalla>
+        <software>Antivirus, SO Linux, Libre Office</software>
+    </portatil>
+    <portatil>
+        <nom>HP Pavilium 21s</nom>
+        <CPUs>12 nuclis</CPUs>
+        <RAM>16GB</RAM>
+        <pantalla>17"</pantalla>
+        <software>Antivirus, SO Ubuntu coret, Open Office</software>
+    </portatil> 
+</portatiles>

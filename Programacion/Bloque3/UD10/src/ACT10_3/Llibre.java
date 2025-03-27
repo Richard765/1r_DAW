@@ -23,7 +23,6 @@ public class Llibre {
     }
     
     //Getters
-
     public int getIdLlibre() {
         return idLlibre;
     }
@@ -41,7 +40,6 @@ public class Llibre {
     }
     
     //Equals y hash
-
     @Override
     public int hashCode() {
         int hash = 7;

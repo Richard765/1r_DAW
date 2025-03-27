@@ -1,0 +1,27 @@
+portatiles:
+  - nom: "Asus 34-HB"
+    CPUs: "4 nuclis"
+    RAM: "4GB"
+    pantalla: '15"'
+    software: 
+      - "Antivirus"
+      - "SO Microsoft"
+      - "Office 360"
+  
+  - nom: "Razor 578-H"
+    CPUs: "8 nuclis"
+    RAM: "8GB"
+    pantalla: '16"'
+    software:
+      - "Antivirus"
+      - "SO Linux"
+      - "Libre Office"
+
+  - nom: "HP Pavilion 21s"
+    CPUs: "12 nuclis"
+    RAM: "16GB"
+    pantalla: '17"'
+    software:
+      - "Antivirus"
+      - "SO Ubuntu Core"
+      - "Open Office"
