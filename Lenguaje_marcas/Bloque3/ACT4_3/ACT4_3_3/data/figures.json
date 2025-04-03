@@ -1,0 +1,70 @@
+{
+    "nameCollection":"Marvel Movie Figurines 2021",
+    "year":2021,
+    "figures":[
+        {
+            "id":1,
+            "name":"Tanos",
+            "description":"Thanos es el Titán Loco, poseedor de un asombroso poder y temido en todo el universo. Aunque su aparición en Marvel - Guardianes de la Galaxia fue breve, sus acciones tuvieron consecuencias cruciales.",
+            "price":23.5,
+            "type":"bad",
+            "img":"figure-1-tanos.jpg"
+        },
+        {
+            "id":2,
+            "name":"Hulk",
+            "description":"Un día, un experimento sale terriblemente mal y el científico Bruce Banner queda expuesto a una dosis letal de radiación gamma. Pero, en vez de matarlo, la radiación le produce alteraciones a nivel genético.",
+            "price":43.5,
+            "type":"good",
+            "img":"figure-2-hulk.jpg"
+        },
+        {
+            "id":3,
+            "name":"Spiderman",
+            "description":"Marvel - Vengadores: Infinity War reunió a los mayores héroes de la Tierra, incluido Spider-Man, que de forma accidental se vio arrastrado al espacio por una de las naves de Thanos.",
+            "price":33.5,
+            "type":"good",
+            "img":"figure-3-spiderman.jpg"
+        },
+        {
+            "id":4,
+            "name":"Black panter",
+            "description":"Black Panther es uno de los héroes más grandes de Marvel y uno de los personajes más importantes de Marvel - Capitán América: Civil War, en la que busca vengar el asesinato de su padre.",
+            "price":43.5,
+            "type":"good",
+            "img":"figure-4-black-panter.jpg"
+        },
+        {
+            "id":5,
+            "name":"Doctor Strange",
+            "description":"El doctor Stephen Strange era uno de los mejores cirujanos del mundo, hasta que un trágico accidente cambió el rumbo de su vida y le convirtió en el Hechicero Supremo de la Tierra y en un Maestro de las Artes Místicas.",
+            "price":23.5,
+            "type":"good",
+            "img":"figure-5-doctor.jpg"
+        },
+        {
+            "id":6,
+            "name":"Viuda negra",
+            "description":"Natasha Romanoff es la Viuda Negra, ex superagente del KGB y, en la actualidad, la agente más completa de S.H.I.E.L.D. Lo que se sabe de su pasado es impactante, y lo que no se sabe es aún más inquietante.",
+            "price":23.5,
+            "type":"bad",
+            "img":"figure-6-viuda-negra.jpg"
+        },
+        {
+            "id":7,
+            "name":"Grut",
+            "description":"Al llegar a Marvel – Vengadores: Infinity War, Groot había rebrotado bastante y ya era todo un adolescente (con rebeldía incluida), pero seguía siendo un verdadero héroe.",
+            "price":26.5,
+            "type":"good",
+            "img":"figure-7-grut.jpg"
+        },
+        {
+            "id":8,
+            "name":"Iron Man",
+            "description":"Cuesta mantener una identidad secreta cuando eres uno de los hombres más famosos del mundo, así que Tony Stark (Robert Downey Jr.) ni siquiera lo intenta. Además de ser una celebridad multimillonaria y excéntrica, un filántropo a nivel global y un revolucionario de la tecnología con un genio sin igual, también es el superhéroe blindado conocido como Iron Man.",
+            "price":29.5,
+            "type":"good",
+            "img":"figure-8-iron-man.jpg"
+        }
+    ]
+}

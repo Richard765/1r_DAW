@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css?_cacheOverride=1574773860125" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css">
+	<title>CINEMADOR</title>
+</head>
+<body>
+	<!-- Capçalera -->
+	<header class="jumbotron jumbotron-fluid py-2 my-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-9" style="padding-left:90px">
+					<h1 class="display-6">CINEMADOR</h1>
+					<p class="lead">Un cinema únic per a tu</p>
+				</div>
+				<div class="col-3 text-right">
+					<p><i class="fas fa-user-lock"></i> Sign up</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menú de navegació -->
+	<div class="sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light  position-sticky shadow p-3 mb-0 bg-white rounded">
+			<!-- Visible quan es fa petit -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Cartellera</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mapa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Compra d'entrades</a><span class="sr-only">(current)</span>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="nom pel·lícula">
+					<button class="btn btn-warning my-2 my-sm-0" type="submit">Cerca</button>
+				</form>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Path actual -->
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Cartellera</li>
+		</ol>
+	</nav>
+
+	<!-- Categories -->
+	<div class="container py-2 mb-4">
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Totes les categories</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Aventures</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Acció</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Dibuxos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Terror</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Contingut cental -->
+	<div class="container">
+
+		<!-- 1r - Llista pel·lícules -->
+		<div class="row">
+			<div class="col-12">
+				<ul class="list-unstyled">
+					<li class="media">
+						<img src="img/rey-leon.jpg" class="mr-3" alt="..." style="width:100px">
+
+						<div class="media-body">
+							<a href="detall-film.html"><h5 class="mt-0 mb-1">El Rey león</h5></a>
+							<span class="badge btn-warning">Estrena</span>
+							<p class="py-0 my-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+							<p class="py-0 my-0">2h 8min</p>
+							<p class="py-0 my-0">16</p>
+						</div>
+					</li>
+					<li class="media my-4">
+						<img src="img/terminator.jpg" class="mr-3" alt="...">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">Terminator: Dark Fate</h5>
+							Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						</div>
+					</li>
+					<li class="media my-4">
+						<img src="img/the-witcher.jpg" class="mr-3" alt="...">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">The witcher</h5>
+							Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						</div>
+					</li>
+					<li class="media my-4">
+						<img src="img/predator.jpg" class="mr-3" alt="...">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">Predator</h5>
+							Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						</div>
+					</li>
+					<li class="media">
+						<img src="img/avengers.jpg" class="mr-3" alt="...">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">Avengers</h5>
+							Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 2r - Paginació -->
+		<div class="row">
+			<div class="col-12">
+				<nav aria-label="Page navigation">
+					<ul class="pagination justify-content-center">
+						<li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+	</div>
+
+	<!--Dades de peu de pàgina -->
+	<footer class="container pt-1 my-md-2 pt-md-2 border-top">
+		<div class="row">
+			<div class="col-12 col-md text-center">
+				<small class="d-block mb-3 text-muted">&copy; PixelBit SA 2018-2019</small>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<h5>Sobre nosaltres</h5>
+				<p>Cinemador, empresa d’exhibició cinematográfica líder a Baleares, amb més de 40 títols únics, seleccionats per donar la millor experiència.</p>
+			</div>
+			<div class="col-3">
+				<h5>Informació d'interés</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Política de cookies</a></li>
+					<li><a class="text-muted" href="#">Avís Legal</a></li>
+					<li><a class="text-muted" href="#">Informació R.G.P.D.</a></li>
+					<li><a class="text-muted" href="#">Informació corporativa</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<h5>Grup CinemaDor</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Qui som?</a></li>
+					<li><a class="text-muted" href="#">Lloga la teva sala</a></li>
+					<li><a class="text-muted" href="#">Vols fer feina amb nosaltres?</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

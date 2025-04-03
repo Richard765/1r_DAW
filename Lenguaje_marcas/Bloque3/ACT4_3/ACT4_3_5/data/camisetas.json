@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name": "Vue.js",
+        "price":10,
+        "colors":["blue", "grey","white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":4,
+        "image":"1.jpg"
+    },
+    {
+        "id":2,
+        "name": "Angular",
+        "price":10,
+        "colors":["blue", "grey","white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":4,
+        "image":"2.jpg"
+    },
+    {
+        "id":3,
+        "name": "React",
+        "price":10,
+        "colors":["white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":4,
+        "image":"3.jpg"
+    },
+    {
+        "id":4,
+        "name": "Redux",
+        "price":10,
+        "colors":["blue", "grey","white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":4,
+        "image":"4.jpg"
+    },
+    {
+        "id":5,
+        "name": "Node.js",
+        "price":10,
+        "colors":["blue", "grey","white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":2,
+        "image":"5.jpg"
+    },
+    {
+        "id":6,
+        "name": "Sass",
+        "price":10,
+        "colors":["blue", "grey"],
+        "sizes":["S", "M", "L"],
+        "stock":1,
+        "image":"6.jpg"
+    },
+    {
+        "id":7,
+        "name": "HTML",
+        "price":10,
+        "colors":["blue", "orange","white","black"],
+        "sizes":["S", "M", "L"],
+        "stock":2,
+        "image":"7.jpg"
+    },
+    {
+        "id":8,
+        "name": "GITHUB",
+        "price":10,
+        "colors":["blue","black"],
+        "sizes":["S", "M", "L"],
+        "stock":2,
+        "image":"8.jpg"
+    }
+]

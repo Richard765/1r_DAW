@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(0, 12%, 90%);
+    padding: 2rem;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 15% 65% 15%;
+    gap:1rem;
+}
+main section{
+    
+}
+
+.cart-shopping-container{
+    border: 1px solid #000;
+}
+.grid-4{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    gap:1rem;
+}
+.grid-6{
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+    margin: 1rem;
+    gap:1rem;
+}
+
+.icon-grid, .icon-filter{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.card{
+    padding: 0.6rem;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    padding-top:7px;
+}
+.btnBuy{
+    padding: 1rem;
+    border: 1px solid rgb(72, 72, 92);
+    background-color: rgb(74, 74, 126);
+    color:white;
+    font-weight: bold;
+}
+
+#cart-user article{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+    gap:5px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    border-bottom: 1px solid #767575;
+}
+#cart-user article .price, #cart-user article .quantity{
+    text-align: right;
+}
+
+.colorTshit{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    margin-right: 4px;
+}
+.delete{
+    text-align: right;
+    cursor: pointer;
+}
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 5px 5px;
+}
+

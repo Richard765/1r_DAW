@@ -1,0 +1,29 @@
+.media img{
+	width:100px;
+}
+.nav-link::after{
+	content: "";
+}
+.nav-item .active{
+	border-bottom: 2px solid #ccc;
+}
+.jumbotron{
+	background:url("../img/bg-4.jpg") no-repeat;
+	filter: grayscale(70%);
+	/* color:#FFE930; */
+	color:#FFF;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card-title{
+
+	font-family:'Varela Round', sans-serif;
+	color:#ff8000;
+	font-size: 25px;
+	border-bottom: 2px dotted #bbb;
+}
+/*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+
+*/

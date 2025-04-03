@@ -1,0 +1,81 @@
+[
+    {
+        "id":1,
+        "name":"Vegeta",
+        "planet": "planet Vegeta",
+        "gender": "H",
+        "power": 2000,
+        "image":"vegeta.png"
+
+    },
+
+    {
+        "id":2,
+        "name":"Majin Boo",
+        "planet": "Casa de Mr.Satan",
+        "gender": "H",
+        "power": 12500,
+        "image":"boogordo.png"
+
+    },
+
+    {
+        "id":3,
+        "name":"Freezer",
+        "planet": "Universo 7",
+        "gender": "H",
+        "power": 125000,
+        "image":"freezer.png"
+
+    },
+
+    {
+        "id":4,
+        "name":"Trunks",
+        "planet": "planet Tierra",
+        "gender": "H",
+        "power": 1205,
+        "image":"trunks.png"
+
+    },
+
+    {
+        "id":5,
+        "name":"Son Gohan",
+        "planet": "Montaña Paoz",
+        "gender": "H",
+        "power": 10025,
+        "image":"gohan.png"
+
+    },
+
+    {
+        "id":6,
+        "name":"Bulma",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"bulma.png"
+
+    },
+
+    {
+        "id":7,
+        "name":"Cell",
+        "planet": "Laboratorio de Gero",
+        "gender": "Intersexual",
+        "power": 125000,
+        "image":"cell.png"
+
+    },
+
+    {
+        "id":8,
+        "name":"Chi-Chi",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"chichi.png"
+
+    }
+]
