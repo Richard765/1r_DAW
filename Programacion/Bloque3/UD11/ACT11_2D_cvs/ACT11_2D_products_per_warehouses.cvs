@@ -1,0 +1,1113 @@
+#productid | product_description | warehouse_id | warehous_description | quantity
+1729    Chemicals - RCP         3    New Jersey              100
+1729    Chemicals - RCP         5    Toronto                 71
+1729    Chemicals - RCP         6    Sydney                  58
+1729    Chemicals - RCP         7    Mexico City             46
+1729    Chemicals - RCP         8    Beijing                 34
+1729    Chemicals - RCP         9    Bombay                  23
+1733    PS 220V /UK             1    Southlake, Texas        106
+1733    PS 220V /UK             2    San Francisco           96
+1733    PS 220V /UK             3    New Jersey              88
+1733    PS 220V /UK             4    Seattle, Washington     63
+1733    PS 220V /UK             5    Toronto                 46
+1733    PS 220V /UK             6    Sydney                  29
+1733    PS 220V /UK             7    Mexico City             63
+1733    PS 220V /UK             8    Beijing                 49
+1733    PS 220V /UK             9    Bombay                  35
+1734    Cable RS232 10/AM       1    Southlake, Texas        106
+1734    Cable RS232 10/AM       2    San Francisco           96
+1734    Cable RS232 10/AM       3    New Jersey              88
+1734    Cable RS232 10/AM       4    Seattle, Washington     63
+1734    Cable RS232 10/AM       5    Toronto                 46
+1734    Cable RS232 10/AM       6    Sydney                  30
+1734    Cable RS232 10/AM       7    Mexico City             63
+1734    Cable RS232 10/AM       8    Beijing                 49
+1734    Cable RS232 10/AM       9    Bombay                  35
+1737    Cable SCSI 10/FW/ADS    1    Southlake, Texas        106
+1737    Cable SCSI 10/FW/ADS    2    San Francisco           96
+1737    Cable SCSI 10/FW/ADS    3    New Jersey              89
+1737    Cable SCSI 10/FW/ADS    4    Seattle, Washington     63
+1737    Cable SCSI 10/FW/ADS    5    Toronto                 47
+1737    Cable SCSI 10/FW/ADS    6    Sydney                  30
+1737    Cable SCSI 10/FW/ADS    7    Mexico City             63
+1737    Cable SCSI 10/FW/ADS    8    Beijing                 49
+1737    Cable SCSI 10/FW/ADS    9    Bombay                  36
+1738    PS 110V /US             1    Southlake, Texas        107
+1738    PS 110V /US             2    San Francisco           96
+1738    PS 110V /US             3    New Jersey              89
+1738    PS 110V /US             4    Seattle, Washington     64
+1738    PS 110V /US             5    Toronto                 47
+1738    PS 110V /US             6    Sydney                  30
+1738    PS 110V /US             7    Mexico City             63
+1738    PS 110V /US             8    Beijing                 50
+1738    PS 110V /US             9    Bombay                  36
+1739    SDRAM - 128 MB          2    San Francisco           97
+1739    SDRAM - 128 MB          4    Seattle, Washington     64
+1739    SDRAM - 128 MB          6    Sydney                  30
+1739    SDRAM - 128 MB          8    Beijing                 50
+1739    SDRAM - 128 MB          9    Bombay                  36
+1740    TD 12GB/DAT             2    San Francisco           97
+1740    TD 12GB/DAT             4    Seattle, Washington     67
+1740    TD 12GB/DAT             6    Sydney                  30
+1740    TD 12GB/DAT             8    Beijing                 50
+1740    TD 12GB/DAT             9    Bombay                  36
+1742    CD-ROM 500/16x          2    San Francisco           97
+1742    CD-ROM 500/16x          4    Seattle, Washington     67
+1742    CD-ROM 500/16x          6    Sydney                  31
+1742    CD-ROM 500/16x          8    Beijing                 50
+1742    CD-ROM 500/16x          9    Bombay                  36
+1745    Cable SCSI 20/WD->D     1    Southlake, Texas        108
+1745    Cable SCSI 20/WD->D     2    San Francisco           98
+1745    Cable SCSI 20/WD->D     3    New Jersey              90
+1745    Cable SCSI 20/WD->D     4    Seattle, Washington     68
+1745    Cable SCSI 20/WD->D     5    Toronto                 48
+1745    Cable SCSI 20/WD->D     6    Sydney                  31
+1745    Cable SCSI 20/WD->D     7    Mexico City             65
+1745    Cable SCSI 20/WD->D     8    Beijing                 51
+1745    Cable SCSI 20/WD->D     9    Bombay                  37
+1748    PS 220V /EUR            1    Southlake, Texas        108
+1748    PS 220V /EUR            2    San Francisco           98
+1748    PS 220V /EUR            3    New Jersey              90
+1748    PS 220V /EUR            4    Seattle, Washington     68
+1748    PS 220V /EUR            5    Toronto                 48
+1748    PS 220V /EUR            6    Sydney                  32
+1748    PS 220V /EUR            7    Mexico City             65
+1748    PS 220V /EUR            8    Beijing                 51
+1748    PS 220V /EUR            9    Bombay                  37
+1749    DIMM - 256MB            2    San Francisco           98
+1749    DIMM - 256MB            4    Seattle, Washington     68
+1749    DIMM - 256MB            6    Sydney                  32
+1749    DIMM - 256MB            8    Beijing                 51
+1749    DIMM - 256MB            9    Bombay                  37
+1750    DIMM - 2GB              2    San Francisco           98
+1750    DIMM - 2GB              4    Seattle, Washington     68
+1750    DIMM - 2GB              6    Sydney                  32
+1750    DIMM - 2GB              8    Beijing                 51
+1750    DIMM - 2GB              9    Bombay                  38
+1755    32MB Cache /NM          2    San Francisco           99
+1755    32MB Cache /NM          4    Seattle, Washington     69
+1755    32MB Cache /NM          6    Sydney                  33
+1755    32MB Cache /NM          8    Beijing                 52
+1755    32MB Cache /NM          9    Bombay                  41
+1763    DIMM - 64MB             2    San Francisco           100
+1763    DIMM - 64MB             4    Seattle, Washington     70
+1763    DIMM - 64MB             6    Sydney                  34
+1763    DIMM - 64MB             8    Beijing                 54
+1763    DIMM - 64MB             9    Bombay                  3
+1768    HD 8.2GB @5400          2    San Francisco           101
+1768    HD 8.2GB @5400          4    Seattle, Washington     71
+1768    HD 8.2GB @5400          6    Sydney                  35
+1768    HD 8.2GB @5400          8    Beijing                 54
+1768    HD 8.2GB @5400          9    Bombay                  3
+1769    GP 800x600              2    San Francisco           101
+1769    GP 800x600              4    Seattle, Washington     71
+1769    GP 800x600              6    Sydney                  35
+1769    GP 800x600              8    Beijing                 54
+1769    GP 800x600              9    Bombay                  3
+1770    8MB Cache /NM           2    San Francisco           104
+1770    8MB Cache /NM           4    Seattle, Washington     71
+1770    8MB Cache /NM           6    Sydney                  35
+1770    8MB Cache /NM           8    Beijing                 5
+1770    8MB Cache /NM           9    Bombay                  4
+1772    HD 9.1GB @10000         2    San Francisco           105
+1772    HD 9.1GB @10000         4    Seattle, Washington     72
+1772    HD 9.1GB @10000         6    Sydney                  36
+1772    HD 9.1GB @10000         8    Beijing                 5
+1772    HD 9.1GB @10000         9    Bombay                  4
+1774    Base ISO CP - BL        2    San Francisco           114
+1774    Base ISO CP - BL        5    Toronto                 73
+1774    Base ISO CP - BL        6    Sydney                  62
+1774    Base ISO CP - BL        7    Mexico City             50
+1774    Base ISO CP - BL        8    Beijing                 38
+1775    Client ISO CP - S       2    San Francisco           114
+1775    Client ISO CP - S       5    Toronto                 74
+1775    Client ISO CP - S       6    Sydney                  62
+1775    Client ISO CP - S       7    Mexico City             50
+1775    Client ISO CP - S       8    Beijing                 39
+1778    C for SPNIX3.3 - 1 S    2    San Francisco           115
+1778    C for SPNIX3.3 - 1 S    5    Toronto                 74
+1778    C for SPNIX3.3 - 1 S    6    Sydney                  62
+1778    C for SPNIX3.3 - 1 S    7    Mexico City             50
+1778    C for SPNIX3.3 - 1 S    8    Beijing                 39
+1779    C for SPNIX3.3 - Doc    2    San Francisco           115
+1779    C for SPNIX3.3 - Doc    5    Toronto                 74
+1779    C for SPNIX3.3 - Doc    6    Sydney                  62
+1779    C for SPNIX3.3 - Doc    7    Mexico City             51
+1779    C for SPNIX3.3 - Doc    8    Beijing                 39
+1780    C for SPNIX3.3 - Sys    2    San Francisco           115
+1780    C for SPNIX3.3 - Sys    5    Toronto                 74
+1780    C for SPNIX3.3 - Sys    6    Sydney                  63
+1780    C for SPNIX3.3 - Sys    7    Mexico City             51
+1780    C for SPNIX3.3 - Sys    8    Beijing                 39
+1781    CDW 20/48/E             2    San Francisco           106
+1781    CDW 20/48/E             4    Seattle, Washington     73
+1781    CDW 20/48/E             6    Sydney                  37
+1781    CDW 20/48/E             8    Beijing                 6
+1781    CDW 20/48/E             9    Bombay                  5
+1787    CPU D300                2    San Francisco           107
+1787    CPU D300                4    Seattle, Washington     74
+1787    CPU D300                6    Sydney                  38
+1787    CPU D300                8    Beijing                 7
+1787    CPU D300                9    Bombay                  6
+1788    CPU D600                2    San Francisco           107
+1788    CPU D600                4    Seattle, Washington     74
+1788    CPU D600                6    Sydney                  38
+1788    CPU D600                8    Beijing                 7
+1788    CPU D600                9    Bombay                  6
+1791    Industrial 700/HD       6    Sydney                  39
+1791    Industrial 700/HD       8    Beijing                 8
+1791    Industrial 700/HD       9    Bombay                  7
+1792    Industrial 600/DQ       6    Sydney                  39
+1792    Industrial 600/DQ       8    Beijing                 8
+1792    Industrial 600/DQ       9    Bombay                  7
+1794    OSI 8-16/IL             2    San Francisco           117
+1794    OSI 8-16/IL             5    Toronto                 77
+1794    OSI 8-16/IL             6    Sydney                  65
+1794    OSI 8-16/IL             7    Mexico City             53
+1794    OSI 8-16/IL             8    Beijing                 42
+1797    Inkjet C/8/HQ           6    Sydney                  39
+1797    Inkjet C/8/HQ           8    Beijing                 9
+1797    Inkjet C/8/HQ           9    Bombay                  8
+1799    SPNIX3.3 - SL           2    San Francisco           118
+1799    SPNIX3.3 - SL           5    Toronto                 77
+1799    SPNIX3.3 - SL           6    Sydney                  66
+1799    SPNIX3.3 - SL           7    Mexico City             54
+1799    SPNIX3.3 - SL           8    Beijing                 42
+1801    SPNIX3.3 - AL           2    San Francisco           118
+1801    SPNIX3.3 - AL           5    Toronto                 78
+1801    SPNIX3.3 - AL           6    Sydney                  66
+1801    SPNIX3.3 - AL           7    Mexico City             54
+1801    SPNIX3.3 - AL           8    Beijing                 43
+1803    SPNIX3.3 - DL           2    San Francisco           119
+1803    SPNIX3.3 - DL           5    Toronto                 78
+1803    SPNIX3.3 - DL           6    Sydney                  66
+1803    SPNIX3.3 - DL           7    Mexico City             55
+1803    SPNIX3.3 - DL           8    Beijing                 43
+1804    SPNIX3.3 - UL/N         2    San Francisco           119
+1804    SPNIX3.3 - UL/N         5    Toronto                 78
+1804    SPNIX3.3 - UL/N         6    Sydney                  66
+1804    SPNIX3.3 - UL/N         7    Mexico City             55
+1804    SPNIX3.3 - UL/N         8    Beijing                 43
+1805    SPNIX3.3 - UL/A         2    San Francisco           119
+1805    SPNIX3.3 - UL/A         5    Toronto                 78
+1805    SPNIX3.3 - UL/A         6    Sydney                  66
+1805    SPNIX3.3 - UL/A         7    Mexico City             55
+1805    SPNIX3.3 - UL/A         8    Beijing                 43
+1806    SPNIX3.3 - UL/C         2    San Francisco           119
+1806    SPNIX3.3 - UL/C         5    Toronto                 78
+1806    SPNIX3.3 - UL/C         6    Sydney                  67
+1806    SPNIX3.3 - UL/C         7    Mexico City             55
+1806    SPNIX3.3 - UL/C         8    Beijing                 44
+1808    SPNIX3.3 - UL/D         2    San Francisco           119
+1808    SPNIX3.3 - UL/D         5    Toronto                 79
+1808    SPNIX3.3 - UL/D         6    Sydney                  67
+1808    SPNIX3.3 - UL/D         7    Mexico City             55
+1808    SPNIX3.3 - UL/D         8    Beijing                 44
+1820    SPNIX3.3 - NL           2    San Francisco           122
+1820    SPNIX3.3 - NL           5    Toronto                 81
+1820    SPNIX3.3 - NL           6    Sydney                  69
+1820    SPNIX3.3 - NL           7    Mexico City             57
+1820    SPNIX3.3 - NL           8    Beijing                 46
+1822    SPNIX4.0 - SL           2    San Francisco           122
+1822    SPNIX4.0 - SL           5    Toronto                 81
+1822    SPNIX4.0 - SL           6    Sydney                  69
+1822    SPNIX4.0 - SL           7    Mexico City             58
+1822    SPNIX4.0 - SL           8    Beijing                 46
+1825    X25 - 1 Line License    2    San Francisco           122
+1825    X25 - 1 Line License    5    Toronto                 82
+1825    X25 - 1 Line License    6    Sydney                  70
+1825    X25 - 1 Line License    7    Mexico City             58
+1825    X25 - 1 Line License    8    Beijing                 47
+1912    SS Stock - 3mm          3    New Jersey              112
+1912    SS Stock - 3mm          5    Toronto                 90
+1912    SS Stock - 3mm          6    Sydney                  29
+1912    SS Stock - 3mm          7    Mexico City             18
+1912    SS Stock - 3mm          8    Beijing                 7
+1912    SS Stock - 3mm          9    Bombay                  6
+1940    ESD Bracelet/Clip       3    New Jersey              66
+1940    ESD Bracelet/Clip       5    Toronto                 44
+1940    ESD Bracelet/Clip       6    Sydney                  33
+1940    ESD Bracelet/Clip       7    Mexico City             22
+1940    ESD Bracelet/Clip       8    Beijing                 11
+1940    ESD Bracelet/Clip       9    Bombay                  0
+2005    IC Browser Doc - S      2    San Francisco           117
+2005    IC Browser Doc - S      5    Toronto                 69
+2005    IC Browser Doc - S      6    Sydney                  84
+2005    IC Browser Doc - S      7    Mexico City             58
+2005    IC Browser Doc - S      8    Beijing                 32
+2058    Mouse +WP               2    San Francisco           110
+2058    Mouse +WP               4    Seattle, Washington     88
+2058    Mouse +WP               6    Sydney                  66
+2058    Mouse +WP               8    Beijing                 44
+2058    Mouse +WP               9    Bombay                  33
+2093    Pens - 10/FP            6    Sydney                  58
+2144    Card Organizer Cover    6    Sydney                  66
+2243    Monitor 17/HR/F         2    San Francisco           149
+2243    Monitor 17/HR/F         4    Seattle, Washington     74
+2243    Monitor 17/HR/F         6    Sydney                  30
+2243    Monitor 17/HR/F         8    Beijing                 47
+2243    Monitor 17/HR/F         9    Bombay                  32
+2245    Monitor 19/SD/M         2    San Francisco           149
+2245    Monitor 19/SD/M         4    Seattle, Washington     74
+2245    Monitor 19/SD/M         6    Sydney                  30
+2245    Monitor 19/SD/M         8    Beijing                 47
+2245    Monitor 19/SD/M         9    Bombay                  33
+2255    HD 12GB @7200 /SE       2    San Francisco           154
+2255    HD 12GB @7200 /SE       4    Seattle, Washington     76
+2255    HD 12GB @7200 /SE       6    Sydney                  34
+2255    HD 12GB @7200 /SE       8    Beijing                 49
+2255    HD 12GB @7200 /SE       9    Bombay                  34
+2257    HD 8GB /I               2    San Francisco           154
+2257    HD 8GB /I               4    Seattle, Washington     76
+2257    HD 8GB /I               6    Sydney                  35
+2257    HD 8GB /I               8    Beijing                 49
+2257    HD 8GB /I               9    Bombay                  34
+2259    FD 1.44/3.5             2    San Francisco           154
+2259    FD 1.44/3.5             4    Seattle, Washington     76
+2259    FD 1.44/3.5             6    Sydney                  35
+2259    FD 1.44/3.5             8    Beijing                 50
+2259    FD 1.44/3.5             9    Bombay                  35
+2260    DFD 1.44/3.5            2    San Francisco           155
+2260    DFD 1.44/3.5            4    Seattle, Washington     76
+2260    DFD 1.44/3.5            6    Sydney                  35
+2260    DFD 1.44/3.5            8    Beijing                 50
+2260    DFD 1.44/3.5            9    Bombay                  35
+2261    FD 1.44/3.5/E           2    San Francisco           155
+2261    FD 1.44/3.5/E           4    Seattle, Washington     76
+2261    FD 1.44/3.5/E           6    Sydney                  35
+2261    FD 1.44/3.5/E           8    Beijing                 50
+2261    FD 1.44/3.5/E           9    Bombay                  35
+2262    ZIP 100                 2    San Francisco           155
+2262    ZIP 100                 4    Seattle, Washington     77
+2262    ZIP 100                 6    Sydney                  35
+2262    ZIP 100                 8    Beijing                 50
+2262    ZIP 100                 9    Bombay                  35
+2264    CDW 20/48/I             2    San Francisco           111
+2264    CDW 20/48/I             4    Seattle, Washington     87
+2264    CDW 20/48/I             6    Sydney                  63
+2264    CDW 20/48/I             8    Beijing                 39
+2264    CDW 20/48/I             9    Bombay                  27
+2266    DVD 12x                 2    San Francisco           111
+2266    DVD 12x                 4    Seattle, Washington     87
+2266    DVD 12x                 6    Sydney                  63
+2266    DVD 12x                 8    Beijing                 39
+2266    DVD 12x                 9    Bombay                  27
+2270    Modem - 56/90/I         2    San Francisco           112
+2270    Modem - 56/90/I         4    Seattle, Washington     88
+2270    Modem - 56/90/I         6    Sydney                  64
+2270    Modem - 56/90/I         8    Beijing                 40
+2270    Modem - 56/90/I         9    Bombay                  28
+2274    RAM - 32 MB             2    San Francisco           113
+2274    RAM - 32 MB             4    Seattle, Washington     89
+2274    RAM - 32 MB             6    Sydney                  65
+2274    RAM - 32 MB             8    Beijing                 41
+2274    RAM - 32 MB             9    Bombay                  29
+2276    SDRAM - 48 MB           2    San Francisco           113
+2276    SDRAM - 48 MB           4    Seattle, Washington     89
+2276    SDRAM - 48 MB           6    Sydney                  65
+2276    SDRAM - 48 MB           8    Beijing                 41
+2276    SDRAM - 48 MB           9    Bombay                  29
+2278    Battery - NiHM          1    Southlake, Texas        125
+2278    Battery - NiHM          2    San Francisco           113
+2278    Battery - NiHM          3    New Jersey              101
+2278    Battery - NiHM          4    Seattle, Washington     89
+2278    Battery - NiHM          5    Toronto                 77
+2278    Battery - NiHM          6    Sydney                  65
+2278    Battery - NiHM          7    Mexico City             53
+2278    Battery - NiHM          8    Beijing                 41
+2278    Battery - NiHM          9    Bombay                  29
+2302    Inkjet B/6              6    Sydney                  69
+2302    Inkjet B/6              8    Beijing                 45
+2302    Inkjet B/6              9    Bombay                  33
+2316    Screws <S.32.S>         1    Southlake, Texas        131
+2316    Screws <S.32.S>         2    San Francisco           119
+2316    Screws <S.32.S>         3    New Jersey              107
+2316    Screws <S.32.S>         4    Seattle, Washington     95
+2316    Screws <S.32.S>         5    Toronto                 83
+2316    Screws <S.32.S>         6    Sydney                  71
+2316    Screws <S.32.S>         7    Mexico City             59
+2316    Screws <S.32.S>         8    Beijing                 47
+2316    Screws <S.32.S>         9    Bombay                  35
+2319    Screws <Z.24.S>         1    Southlake, Texas        117
+2319    Screws <Z.24.S>         2    San Francisco           167
+2319    Screws <Z.24.S>         3    New Jersey              118
+2319    Screws <Z.24.S>         4    Seattle, Washington     86
+2319    Screws <Z.24.S>         5    Toronto                 62
+2319    Screws <Z.24.S>         6    Sydney                  44
+2319    Screws <Z.24.S>         7    Mexico City             27
+2319    Screws <Z.24.S>         8    Beijing                 12
+2319    Screws <Z.24.S>         9    Bombay                  7
+2322    Screws <Z.28.P>         1    Southlake, Texas        118
+2322    Screws <Z.28.P>         2    San Francisco           167
+2322    Screws <Z.28.P>         3    New Jersey              118
+2322    Screws <Z.28.P>         4    Seattle, Washington     86
+2322    Screws <Z.28.P>         5    Toronto                 63
+2322    Screws <Z.28.P>         6    Sydney                  45
+2322    Screws <Z.28.P>         7    Mexico City             27
+2322    Screws <Z.28.P>         8    Beijing                 12
+2322    Screws <Z.28.P>         9    Bombay                  8
+2323    Screws <B.32.P>         1    Southlake, Texas        118
+2323    Screws <B.32.P>         2    San Francisco           167
+2323    Screws <B.32.P>         3    New Jersey              118
+2323    Screws <B.32.P>         4    Seattle, Washington     86
+2323    Screws <B.32.P>         5    Toronto                 63
+2323    Screws <B.32.P>         6    Sydney                  45
+2323    Screws <B.32.P>         7    Mexico City             27
+2323    Screws <B.32.P>         8    Beijing                 13
+2323    Screws <B.32.P>         9    Bombay                  8
+2326    Plastic Stock - Y       3    New Jersey              94
+2326    Plastic Stock - Y       5    Toronto                 70
+2326    Plastic Stock - Y       6    Sydney                  58
+2326    Plastic Stock - Y       7    Mexico City             46
+2326    Plastic Stock - Y       8    Beijing                 34
+2326    Plastic Stock - Y       9    Bombay                  22
+2335    Mobile phone            2    San Francisco           91
+2335    Mobile phone            5    Toronto                 85
+2335    Mobile phone            6    Sydney                  71
+2335    Mobile phone            7    Mexico City             57
+2335    Mobile phone            8    Beijing                 44
+2336    Business Cards Box -    6    Sydney                  60
+2337    Business Cards - 100    6    Sydney                  60
+2340    Chemicals - SW          3    New Jersey              69
+2340    Chemicals - SW          5    Toronto                 86
+2340    Chemicals - SW          6    Sydney                  72
+2340    Chemicals - SW          7    Mexico City             58
+2340    Chemicals - SW          8    Beijing                 45
+2340    Chemicals - SW          9    Bombay                  32
+2350    Desk - W/48             2    San Francisco           94
+2350    Desk - W/48             5    Toronto                 88
+2350    Desk - W/48             6    Sydney                  73
+2350    Desk - W/48             7    Mexico City             60
+2350    Desk - W/48             8    Beijing                 47
+2351    Desk - W/48/R           2    San Francisco           94
+2351    Desk - W/48/R           5    Toronto                 88
+2351    Desk - W/48/R           6    Sydney                  74
+2351    Desk - W/48/R           7    Mexico City             60
+2351    Desk - W/48/R           8    Beijing                 47
+2359    LCD Monitor 9/PM        2    San Francisco           173
+2359    LCD Monitor 9/PM        4    Seattle, Washington     95
+2359    LCD Monitor 9/PM        6    Sydney                  51
+2359    LCD Monitor 9/PM        8    Beijing                 18
+2359    LCD Monitor 9/PM        9    Bombay                  3
+2365    Chemicals - TCS         3    New Jersey              73
+2365    Chemicals - TCS         5    Toronto                 90
+2365    Chemicals - TCS         6    Sydney                  76
+2365    Chemicals - TCS         7    Mexico City             62
+2365    Chemicals - TCS         8    Beijing                 49
+2365    Chemicals - TCS         9    Bombay                  36
+2370    PS 220V /HS/FR          1    Southlake, Texas        125
+2370    PS 220V /HS/FR          2    San Francisco           178
+2370    PS 220V /HS/FR          3    New Jersey              126
+2370    PS 220V /HS/FR          4    Seattle, Washington     97
+2370    PS 220V /HS/FR          5    Toronto                 73
+2370    PS 220V /HS/FR          6    Sydney                  53
+2370    PS 220V /HS/FR          7    Mexico City             35
+2370    PS 220V /HS/FR          8    Beijing                 20
+2370    PS 220V /HS/FR          9    Bombay                  5
+2371    C for SPNIX4.0 - Doc    2    San Francisco           81
+2371    C for SPNIX4.0 - Doc    5    Toronto                 84
+2371    C for SPNIX4.0 - Doc    6    Sydney                  71
+2371    C for SPNIX4.0 - Doc    7    Mexico City             58
+2371    C for SPNIX4.0 - Doc    8    Beijing                 46
+2373    Cable RS232 10/AF       1    Southlake, Texas        126
+2373    Cable RS232 10/AF       2    San Francisco           178
+2373    Cable RS232 10/AF       3    New Jersey              126
+2373    Cable RS232 10/AF       4    Seattle, Washington     97
+2373    Cable RS232 10/AF       5    Toronto                 74
+2373    Cable RS232 10/AF       6    Sydney                  53
+2373    Cable RS232 10/AF       7    Mexico City             35
+2373    Cable RS232 10/AF       8    Beijing                 20
+2373    Cable RS232 10/AF       9    Bombay                  6
+2374    Modem - C/100           2    San Francisco           178
+2374    Modem - C/100           4    Seattle, Washington     97
+2374    Modem - C/100           6    Sydney                  53
+2374    Modem - C/100           8    Beijing                 21
+2374    Modem - C/100           9    Bombay                  6
+2375    GP 1024x768             2    San Francisco           178
+2375    GP 1024x768             4    Seattle, Washington     97
+2375    GP 1024x768             6    Sydney                  53
+2375    GP 1024x768             8    Beijing                 21
+2375    GP 1024x768             9    Bombay                  6
+2377    PS 110V HS/US           1    Southlake, Texas        126
+2377    PS 110V HS/US           2    San Francisco           179
+2377    PS 110V HS/US           3    New Jersey              127
+2377    PS 110V HS/US           4    Seattle, Washington     98
+2377    PS 110V HS/US           5    Toronto                 74
+2377    PS 110V HS/US           6    Sydney                  54
+2377    PS 110V HS/US           7    Mexico City             36
+2377    PS 110V HS/US           8    Beijing                 21
+2377    PS 110V HS/US           9    Bombay                  6
+2378    DIMM - 128 MB           2    San Francisco           179
+2378    DIMM - 128 MB           4    Seattle, Washington     98
+2378    DIMM - 128 MB           6    Sydney                  54
+2378    DIMM - 128 MB           8    Beijing                 21
+2378    DIMM - 128 MB           9    Bombay                  6
+2380    Cable PR/15/P           1    Southlake, Texas        127
+2380    Cable PR/15/P           2    San Francisco           179
+2380    Cable PR/15/P           3    New Jersey              127
+2380    Cable PR/15/P           4    Seattle, Washington     98
+2380    Cable PR/15/P           5    Toronto                 75
+2380    Cable PR/15/P           6    Sydney                  54
+2380    Cable PR/15/P           7    Mexico City             36
+2380    Cable PR/15/P           8    Beijing                 22
+2380    Cable PR/15/P           9    Bombay                  7
+2387    PS 220V /FR             1    Southlake, Texas        128
+2387    PS 220V /FR             2    San Francisco           180
+2387    PS 220V /FR             3    New Jersey              131
+2387    PS 220V /FR             4    Seattle, Washington     99
+2387    PS 220V /FR             5    Toronto                 76
+2387    PS 220V /FR             6    Sydney                  55
+2387    PS 220V /FR             7    Mexico City             37
+2387    PS 220V /FR             8    Beijing                 23
+2387    PS 220V /FR             9    Bombay                  8
+2394    DIMM - 32MB             2    San Francisco           181
+2394    DIMM - 32MB             4    Seattle, Washington     100
+2394    DIMM - 32MB             6    Sydney                  56
+2394    DIMM - 32MB             8    Beijing                 24
+2394    DIMM - 32MB             9    Bombay                  9
+2395    32MB Cache /M           2    San Francisco           182
+2395    32MB Cache /M           4    Seattle, Washington     100
+2395    32MB Cache /M           6    Sydney                  56
+2395    32MB Cache /M           8    Beijing                 24
+2395    32MB Cache /M           9    Bombay                  9
+2396    EDO - 32MB              2    San Francisco           182
+2396    EDO - 32MB              4    Seattle, Washington     101
+2396    EDO - 32MB              6    Sydney                  57
+2396    EDO - 32MB              8    Beijing                 24
+2396    EDO - 32MB              9    Bombay                  9
+2402    CD-ROM 600/E/24x        2    San Francisco           183
+2402    CD-ROM 600/E/24x        4    Seattle, Washington     102
+2402    CD-ROM 600/E/24x        6    Sydney                  58
+2402    CD-ROM 600/E/24x        8    Beijing                 25
+2402    CD-ROM 600/E/24x        9    Bombay                  10
+2403    CD-ROM 600/I/24x        2    San Francisco           183
+2403    CD-ROM 600/I/24x        4    Seattle, Washington     102
+2403    CD-ROM 600/I/24x        6    Sydney                  58
+2403    CD-ROM 600/I/24x        8    Beijing                 25
+2403    CD-ROM 600/I/24x        9    Bombay                  10
+2404    64MB Cache /NM          2    San Francisco           183
+2404    64MB Cache /NM          4    Seattle, Washington     102
+2404    64MB Cache /NM          6    Sydney                  58
+2404    64MB Cache /NM          8    Beijing                 25
+2404    64MB Cache /NM          9    Bombay                  10
+2406    64MB Cache /M           2    San Francisco           183
+2406    64MB Cache /M           4    Seattle, Washington     102
+2406    64MB Cache /M           6    Sydney                  58
+2406    64MB Cache /M           8    Beijing                 26
+2406    64MB Cache /M           9    Bombay                  11
+2408    Cable PR/P/6            1    Southlake, Texas        131
+2408    Cable PR/P/6            2    San Francisco           184
+2408    Cable PR/P/6            3    New Jersey              135
+2408    Cable PR/P/6            4    Seattle, Washington     103
+2408    Cable PR/P/6            5    Toronto                 79
+2408    Cable PR/P/6            6    Sydney                  59
+2408    Cable PR/P/6            7    Mexico City             41
+2408    Cable PR/P/6            8    Beijing                 26
+2408    Cable PR/P/6            9    Bombay                  11
+2409    TD 7GB/8                2    San Francisco           184
+2409    TD 7GB/8                4    Seattle, Washington     103
+2409    TD 7GB/8                6    Sydney                  59
+2409    TD 7GB/8                8    Beijing                 26
+2409    TD 7GB/8                9    Bombay                  11
+2410    HD 8.4GB @5400          2    San Francisco           184
+2410    HD 8.4GB @5400          4    Seattle, Washington     103
+2410    HD 8.4GB @5400          6    Sydney                  59
+2410    HD 8.4GB @5400          8    Beijing                 26
+2410    HD 8.4GB @5400          9    Bombay                  11
+2411    GP 1280x1024            2    San Francisco           184
+2411    GP 1280x1024            4    Seattle, Washington     103
+2411    GP 1280x1024            6    Sydney                  59
+2411    GP 1280x1024            8    Beijing                 26
+2411    GP 1280x1024            9    Bombay                  12
+2414    HD 9.1GB @10000 /I      2    San Francisco           185
+2414    HD 9.1GB @10000 /I      4    Seattle, Washington     103
+2414    HD 9.1GB @10000 /I      6    Sydney                  59
+2414    HD 9.1GB @10000 /I      8    Beijing                 27
+2414    HD 9.1GB @10000 /I      9    Bombay                  12
+2415    HD 9.1GB @7200          2    San Francisco           185
+2415    HD 9.1GB @7200          4    Seattle, Washington     104
+2415    HD 9.1GB @7200          6    Sydney                  60
+2415    HD 9.1GB @7200          8    Beijing                 27
+2415    HD 9.1GB @7200          9    Bombay                  12
+2416    Client ISO CP - S       2    San Francisco           88
+2416    Client ISO CP - S       5    Toronto                 42
+2416    Client ISO CP - S       6    Sydney                  78
+2416    Client ISO CP - S       7    Mexico City             66
+2416    Client ISO CP - S       8    Beijing                 53
+2417    Client ISO CP - V       2    San Francisco           88
+2417    Client ISO CP - V       5    Toronto                 42
+2417    Client ISO CP - V       6    Sydney                  29
+2417    Client ISO CP - V       7    Mexico City             66
+2417    Client ISO CP - V       8    Beijing                 53
+2418    Battery Backup (DA-1    1    Southlake, Texas        133
+2418    Battery Backup (DA-1    2    San Francisco           185
+2418    Battery Backup (DA-1    3    New Jersey              136
+2418    Battery Backup (DA-1    4    Seattle, Washington     104
+2418    Battery Backup (DA-1    5    Toronto                 81
+2418    Battery Backup (DA-1    6    Sydney                  60
+2418    Battery Backup (DA-1    7    Mexico City             45
+2418    Battery Backup (DA-1    8    Beijing                 28
+2418    Battery Backup (DA-1    9    Bombay                  13
+2419    Battery Backup (DA-2    1    Southlake, Texas        133
+2419    Battery Backup (DA-2    2    San Francisco           185
+2419    Battery Backup (DA-2    3    New Jersey              136
+2419    Battery Backup (DA-2    4    Seattle, Washington     104
+2419    Battery Backup (DA-2    5    Toronto                 81
+2419    Battery Backup (DA-2    6    Sydney                  60
+2419    Battery Backup (DA-2    7    Mexico City             45
+2419    Battery Backup (DA-2    8    Beijing                 28
+2419    Battery Backup (DA-2    9    Bombay                  13
+2422    SPNIX4.0 - SAL          2    San Francisco           89
+2422    SPNIX4.0 - SAL          5    Toronto                 42
+2422    SPNIX4.0 - SAL          6    Sydney                  29
+2422    SPNIX4.0 - SAL          7    Mexico City             17
+2422    SPNIX4.0 - SAL          8    Beijing                 54
+2423    C for SPNIX4.0 - 1 S    2    San Francisco           89
+2423    C for SPNIX4.0 - 1 S    5    Toronto                 43
+2423    C for SPNIX4.0 - 1 S    6    Sydney                  29
+2423    C for SPNIX4.0 - 1 S    7    Mexico City             17
+2423    C for SPNIX4.0 - 1 S    8    Beijing                 54
+2424    CDW 12/24               2    San Francisco           186
+2424    CDW 12/24               4    Seattle, Washington     105
+2424    CDW 12/24               6    Sydney                  61
+2424    CDW 12/24               8    Beijing                 28
+2424    CDW 12/24               9    Bombay                  14
+2430    Compact 400/LQ          6    Sydney                  65
+2430    Compact 400/LQ          8    Beijing                 29
+2430    Compact 400/LQ          9    Bombay                  15
+2439    CPU D400                2    San Francisco           191
+2439    CPU D400                4    Seattle, Washington     107
+2439    CPU D400                6    Sydney                  66
+2439    CPU D400                8    Beijing                 31
+2439    CPU D400                9    Bombay                  16
+2449    OSI 1-4/IL              2    San Francisco           93
+2449    OSI 1-4/IL              5    Toronto                 47
+2449    OSI 1-4/IL              6    Sydney                  34
+2449    OSI 1-4/IL              7    Mexico City             21
+2449    OSI 1-4/IL              8    Beijing                 8
+2452    SPNIX4.0 - DL           2    San Francisco           94
+2452    SPNIX4.0 - DL           5    Toronto                 47
+2452    SPNIX4.0 - DL           6    Sydney                  34
+2452    SPNIX4.0 - DL           7    Mexico City             21
+2452    SPNIX4.0 - DL           8    Beijing                 9
+2453    Inkjet C/4              6    Sydney                  68
+2453    Inkjet C/4              8    Beijing                 33
+2453    Inkjet C/4              9    Bombay                  18
+2457    Cable PR/S/6            1    Southlake, Texas        89
+2457    Cable PR/S/6            2    San Francisco           194
+2457    Cable PR/S/6            3    New Jersey              142
+2457    Cable PR/S/6            4    Seattle, Washington     110
+2457    Cable PR/S/6            5    Toronto                 87
+2457    Cable PR/S/6            6    Sydney                  69
+2457    Cable PR/S/6            7    Mexico City             51
+2457    Cable PR/S/6            8    Beijing                 34
+2457    Cable PR/S/6            9    Bombay                  19
+2462    SPNIX4.0 - UL/N         2    San Francisco           95
+2462    SPNIX4.0 - UL/N         5    Toronto                 49
+2462    SPNIX4.0 - UL/N         6    Sydney                  36
+2462    SPNIX4.0 - UL/N         7    Mexico City             23
+2462    SPNIX4.0 - UL/N         8    Beijing                 10
+2464    SPNIX4.0 - UL/A         2    San Francisco           96
+2464    SPNIX4.0 - UL/A         5    Toronto                 49
+2464    SPNIX4.0 - UL/A         6    Sydney                  36
+2464    SPNIX4.0 - UL/A         7    Mexico City             23
+2464    SPNIX4.0 - UL/A         8    Beijing                 11
+2467    SPNIX4.0 - UL/D         2    San Francisco           96
+2467    SPNIX4.0 - UL/D         5    Toronto                 50
+2467    SPNIX4.0 - UL/D         6    Sydney                  37
+2467    SPNIX4.0 - UL/D         7    Mexico City             24
+2467    SPNIX4.0 - UL/D         8    Beijing                 11
+2468    SPNIX4.0 - UL/C         2    San Francisco           96
+2468    SPNIX4.0 - UL/C         5    Toronto                 50
+2468    SPNIX4.0 - UL/C         6    Sydney                  37
+2468    SPNIX4.0 - UL/C         7    Mexico City             24
+2468    SPNIX4.0 - UL/C         8    Beijing                 11
+2470    SPNIX4.0 - NL           2    San Francisco           97
+2470    SPNIX4.0 - NL           5    Toronto                 50
+2470    SPNIX4.0 - NL           6    Sydney                  37
+2470    SPNIX4.0 - NL           7    Mexico City             24
+2470    SPNIX4.0 - NL           8    Beijing                 12
+2471    SPNIX3.3 SU             2    San Francisco           97
+2471    SPNIX3.3 SU             5    Toronto                 50
+2471    SPNIX3.3 SU             6    Sydney                  37
+2471    SPNIX3.3 SU             7    Mexico City             24
+2471    SPNIX3.3 SU             8    Beijing                 12
+2492    SPNIX3.3 AU             2    San Francisco           101
+2492    SPNIX3.3 AU             5    Toronto                 54
+2492    SPNIX3.3 AU             6    Sydney                  41
+2492    SPNIX3.3 AU             7    Mexico City             28
+2492    SPNIX3.3 AU             8    Beijing                 15
+2493    SPNIX3.3 C/DU           2    San Francisco           101
+2493    SPNIX3.3 C/DU           5    Toronto                 54
+2493    SPNIX3.3 C/DU           6    Sydney                  41
+2493    SPNIX3.3 C/DU           7    Mexico City             28
+2493    SPNIX3.3 C/DU           8    Beijing                 15
+2494    SPNIX3.3 NU             2    San Francisco           101
+2494    SPNIX3.3 NU             5    Toronto                 54
+2494    SPNIX3.3 NU             6    Sydney                  41
+2494    SPNIX3.3 NU             7    Mexico City             28
+2494    SPNIX3.3 NU             8    Beijing                 15
+2537    Business Cards Box -    6    Sydney                  42
+2596    SS Stock - 1mm          3    New Jersey              87
+2596    SS Stock - 1mm          5    Toronto                 63
+2596    SS Stock - 1mm          6    Sydney                  51
+2596    SS Stock - 1mm          7    Mexico City             39
+2596    SS Stock - 1mm          8    Beijing                 27
+2596    SS Stock - 1mm          9    Bombay                  15
+2631    ESD Bracelet/QR         3    New Jersey              93
+2631    ESD Bracelet/QR         5    Toronto                 69
+2631    ESD Bracelet/QR         6    Sydney                  57
+2631    ESD Bracelet/QR         7    Mexico City             45
+2631    ESD Bracelet/QR         8    Beijing                 33
+2631    ESD Bracelet/QR         9    Bombay                  21
+2638    Envoy DS/E              1    Southlake, Texas        132
+2638    Envoy DS/E              2    San Francisco           120
+2638    Envoy DS/E              3    New Jersey              108
+2638    Envoy DS/E              4    Seattle, Washington     96
+2638    Envoy DS/E              5    Toronto                 84
+2638    Envoy DS/E              6    Sydney                  72
+2638    Envoy DS/E              7    Mexico City             60
+2638    Envoy DS/E              8    Beijing                 48
+2638    Envoy DS/E              9    Bombay                  36
+2722    PC Bag - L/D            3    New Jersey              107
+2722    PC Bag - L/D            5    Toronto                 83
+2722    PC Bag - L/D            6    Sydney                  71
+2722    PC Bag - L/D            7    Mexico City             59
+2722    PC Bag - L/D            8    Beijing                 47
+2722    PC Bag - L/D            9    Bombay                  35
+2752    MB - S550               2    San Francisco           138
+2752    MB - S550               4    Seattle, Washington     114
+2752    MB - S550               6    Sydney                  90
+2752    MB - S550               8    Beijing                 66
+2752    MB - S550               9    Bombay                  54
+2779    Desk - OS/O/F           2    San Francisco           128
+2779    Desk - OS/O/F           5    Toronto                 92
+2779    Desk - OS/O/F           6    Sydney                  80
+2779    Desk - OS/O/F           7    Mexico City             68
+2779    Desk - OS/O/F           8    Beijing                 56
+2783    Clips - Paper           6    Sydney                  81
+2810    Inkvisible Pens         6    Sydney                  85
+2870    Pencil - Mech           6    Sydney                  94
+2878    Router - ASR/2W         1    Southlake, Texas        170
+2878    Router - ASR/2W         2    San Francisco           158
+2878    Router - ASR/2W         3    New Jersey              146
+2878    Router - ASR/2W         4    Seattle, Washington     134
+2878    Router - ASR/2W         5    Toronto                 122
+2878    Router - ASR/2W         6    Sydney                  110
+2878    Router - ASR/2W         7    Mexico City             98
+2878    Router - ASR/2W         8    Beijing                 86
+2878    Router - ASR/2W         9    Bombay                  74
+2879    Router - ASR/3W         1    Southlake, Texas        170
+2879    Router - ASR/3W         2    San Francisco           158
+2879    Router - ASR/3W         3    New Jersey              146
+2879    Router - ASR/3W         4    Seattle, Washington     134
+2879    Router - ASR/3W         5    Toronto                 122
+2879    Router - ASR/3W         6    Sydney                  110
+2879    Router - ASR/3W         7    Mexico City             98
+2879    Router - ASR/3W         8    Beijing                 86
+2879    Router - ASR/3W         9    Bombay                  74
+3000    Laptop 32/10/56         1    Southlake, Texas        175
+3000    Laptop 32/10/56         2    San Francisco           177
+3000    Laptop 32/10/56         3    New Jersey              245
+3000    Laptop 32/10/56         4    Seattle, Washington     210
+3000    Laptop 32/10/56         5    Toronto                 184
+3000    Laptop 32/10/56         6    Sydney                  163
+3000    Laptop 32/10/56         7    Mexico City             143
+3000    Laptop 32/10/56         8    Beijing                 128
+3000    Laptop 32/10/56         9    Bombay                  110
+3003    Laptop 128/12/56/v90    1    Southlake, Texas        175
+3003    Laptop 128/12/56/v90    2    San Francisco           178
+3003    Laptop 128/12/56/v90    3    New Jersey              246
+3003    Laptop 128/12/56/v90    4    Seattle, Washington     211
+3003    Laptop 128/12/56/v90    5    Toronto                 184
+3003    Laptop 128/12/56/v90    6    Sydney                  164
+3003    Laptop 128/12/56/v90    7    Mexico City             143
+3003    Laptop 128/12/56/v90    8    Beijing                 128
+3003    Laptop 128/12/56/v90    9    Bombay                  111
+3004    Laptop 64/10/56/220     1    Southlake, Texas        176
+3004    Laptop 64/10/56/220     2    San Francisco           178
+3004    Laptop 64/10/56/220     3    New Jersey              246
+3004    Laptop 64/10/56/220     4    Seattle, Washington     211
+3004    Laptop 64/10/56/220     5    Toronto                 185
+3004    Laptop 64/10/56/220     6    Sydney                  164
+3004    Laptop 64/10/56/220     7    Mexico City             144
+3004    Laptop 64/10/56/220     8    Beijing                 129
+3004    Laptop 64/10/56/220     9    Bombay                  111
+3054    Plasma Monitor 10/XG    2    San Francisco           171
+3054    Plasma Monitor 10/XG    4    Seattle, Washington     219
+3054    Plasma Monitor 10/XG    6    Sydney                  172
+3054    Plasma Monitor 10/XG    8    Beijing                 137
+3054    Plasma Monitor 10/XG    9    Bombay                  119
+3057    Monitor 17/SD           2    San Francisco           172
+3057    Monitor 17/SD           4    Seattle, Washington     219
+3057    Monitor 17/SD           6    Sydney                  172
+3057    Monitor 17/SD           8    Beijing                 137
+3057    Monitor 17/SD           9    Bombay                  119
+3060    Monitor 17/HR           2    San Francisco           172
+3060    Monitor 17/HR           4    Seattle, Washington     223
+3060    Monitor 17/HR           6    Sydney                  173
+3060    Monitor 17/HR           8    Beijing                 137
+3060    Monitor 17/HR           9    Bombay                  120
+3061    Monitor 19/SD           2    San Francisco           173
+3061    Monitor 19/SD           4    Seattle, Washington     223
+3061    Monitor 19/SD           6    Sydney                  173
+3061    Monitor 19/SD           8    Beijing                 138
+3061    Monitor 19/SD           9    Bombay                  120
+3065    Monitor 21/D            2    San Francisco           173
+3065    Monitor 21/D            4    Seattle, Washington     223
+3065    Monitor 21/D            6    Sydney                  174
+3065    Monitor 21/D            8    Beijing                 138
+3065    Monitor 21/D            9    Bombay                  121
+3071    HD 12GB /S              2    San Francisco           174
+3071    HD 12GB /S              4    Seattle, Washington     224
+3071    HD 12GB /S              6    Sydney                  175
+3071    HD 12GB /S              8    Beijing                 139
+3071    HD 12GB /S              9    Bombay                  122
+3072    HD 12GB /N              2    San Francisco           174
+3072    HD 12GB /N              4    Seattle, Washington     225
+3072    HD 12GB /N              6    Sydney                  175
+3072    HD 12GB /N              8    Beijing                 139
+3072    HD 12GB /N              9    Bombay                  122
+3077    DVD 8x                  2    San Francisco           175
+3077    DVD 8x                  4    Seattle, Washington     225
+3077    DVD 8x                  6    Sydney                  176
+3077    DVD 8x                  8    Beijing                 140
+3077    DVD 8x                  9    Bombay                  122
+3082    Modem - 56/90/E         2    San Francisco           176
+3082    Modem - 56/90/E         4    Seattle, Washington     226
+3082    Modem - 56/90/E         6    Sydney                  176
+3082    Modem - 56/90/E         8    Beijing                 141
+3082    Modem - 56/90/E         9    Bombay                  123
+3083    Modem - 56/H/I          2    San Francisco           176
+3083    Modem - 56/H/I          4    Seattle, Washington     226
+3083    Modem - 56/H/I          6    Sydney                  177
+3083    Modem - 56/H/I          8    Beijing                 141
+3083    Modem - 56/H/I          9    Bombay                  123
+3086    VRAM - 16 MB            2    San Francisco           176
+3086    VRAM - 16 MB            4    Seattle, Washington     227
+3086    VRAM - 16 MB            6    Sydney                  177
+3086    VRAM - 16 MB            8    Beijing                 142
+3086    VRAM - 16 MB            9    Bombay                  124
+3088    SDRAM - 32 MB           2    San Francisco           177
+3088    SDRAM - 32 MB           4    Seattle, Washington     227
+3088    SDRAM - 32 MB           6    Sydney                  177
+3088    SDRAM - 32 MB           8    Beijing                 142
+3088    SDRAM - 32 MB           9    Bombay                  124
+3090    RAM - 48 MB             2    San Francisco           177
+3090    RAM - 48 MB             4    Seattle, Washington     227
+3090    RAM - 48 MB             6    Sydney                  178
+3090    RAM - 48 MB             8    Beijing                 142
+3090    RAM - 48 MB             9    Bombay                  125
+3091    VRAM - 64 MB            2    San Francisco           177
+3091    VRAM - 64 MB            4    Seattle, Washington     228
+3091    VRAM - 64 MB            6    Sydney                  178
+3091    VRAM - 64 MB            8    Beijing                 142
+3091    VRAM - 64 MB            9    Bombay                  125
+3099    Cable Harness           1    Southlake, Texas        205
+3099    Cable Harness           2    San Francisco           193
+3099    Cable Harness           3    New Jersey              181
+3099    Cable Harness           4    Seattle, Washington     169
+3099    Cable Harness           5    Toronto                 157
+3099    Cable Harness           6    Sydney                  145
+3099    Cable Harness           7    Mexico City             133
+3099    Cable Harness           8    Beijing                 121
+3099    Cable Harness           9    Bombay                  109
+3108    KB E/EN                 2    San Francisco           194
+3108    KB E/EN                 4    Seattle, Washington     170
+3108    KB E/EN                 6    Sydney                  146
+3108    KB E/EN                 8    Beijing                 122
+3108    KB E/EN                 9    Bombay                  110
+3110    KB 101/FR               2    San Francisco           195
+3110    KB 101/FR               4    Seattle, Washington     171
+3110    KB 101/FR               6    Sydney                  147
+3110    KB 101/FR               8    Beijing                 123
+3110    KB 101/FR               9    Bombay                  111
+3112    MB - S500               2    San Francisco           195
+3112    MB - S500               4    Seattle, Washington     171
+3112    MB - S500               6    Sydney                  147
+3112    MB - S500               8    Beijing                 123
+3112    MB - S500               9    Bombay                  111
+3117    Mouse C/E               2    San Francisco           196
+3117    Mouse C/E               4    Seattle, Washington     172
+3117    Mouse C/E               6    Sydney                  148
+3117    Mouse C/E               8    Beijing                 124
+3117    Mouse C/E               9    Bombay                  112
+3124    PS 110V /T              1    Southlake, Texas        209
+3124    PS 110V /T              2    San Francisco           197
+3124    PS 110V /T              3    New Jersey              185
+3124    PS 110V /T              4    Seattle, Washington     173
+3124    PS 110V /T              5    Toronto                 161
+3124    PS 110V /T              6    Sydney                  149
+3124    PS 110V /T              7    Mexico City             137
+3124    PS 110V /T              8    Beijing                 125
+3124    PS 110V /T              9    Bombay                  113
+3127    LaserPro 600/6/BW       6    Sydney                  149
+3127    LaserPro 600/6/BW       8    Beijing                 125
+3127    LaserPro 600/6/BW       9    Bombay                  113
+3129    Sound Card STD          2    San Francisco           198
+3129    Sound Card STD          4    Seattle, Washington     174
+3129    Sound Card STD          6    Sydney                  150
+3129    Sound Card STD          8    Beijing                 126
+3129    Sound Card STD          9    Bombay                  114
+3134    Screws <B.32.S>         1    Southlake, Texas        196
+3134    Screws <B.32.S>         2    San Francisco           184
+3134    Screws <B.32.S>         3    New Jersey              272
+3134    Screws <B.32.S>         4    Seattle, Washington     234
+3134    Screws <B.32.S>         5    Toronto                 208
+3134    Screws <B.32.S>         6    Sydney                  185
+3134    Screws <B.32.S>         7    Mexico City             167
+3134    Screws <B.32.S>         8    Beijing                 149
+3134    Screws <B.32.S>         9    Bombay                  134
+3139    Screws <S.16.S>         1    Southlake, Texas        197
+3139    Screws <S.16.S>         2    San Francisco           185
+3139    Screws <S.16.S>         3    New Jersey              273
+3139    Screws <S.16.S>         4    Seattle, Washington     235
+3139    Screws <S.16.S>         5    Toronto                 209
+3139    Screws <S.16.S>         6    Sydney                  185
+3139    Screws <S.16.S>         7    Mexico City             168
+3139    Screws <S.16.S>         8    Beijing                 150
+3139    Screws <S.16.S>         9    Bombay                  135
+3140    Screws <Z.16.S>         1    Southlake, Texas        197
+3140    Screws <Z.16.S>         2    San Francisco           185
+3140    Screws <Z.16.S>         3    New Jersey              273
+3140    Screws <Z.16.S>         4    Seattle, Washington     235
+3140    Screws <Z.16.S>         5    Toronto                 209
+3140    Screws <Z.16.S>         6    Sydney                  186
+3140    Screws <Z.16.S>         7    Mexico City             168
+3140    Screws <Z.16.S>         8    Beijing                 150
+3140    Screws <Z.16.S>         9    Bombay                  135
+3143    Screws <B.28.S>         1    Southlake, Texas        197
+3143    Screws <B.28.S>         2    San Francisco           185
+3143    Screws <B.28.S>         3    New Jersey              273
+3143    Screws <B.28.S>         4    Seattle, Washington     236
+3143    Screws <B.28.S>         5    Toronto                 209
+3143    Screws <B.28.S>         6    Sydney                  186
+3143    Screws <B.28.S>         7    Mexico City             168
+3143    Screws <B.28.S>         8    Beijing                 151
+3143    Screws <B.28.S>         9    Bombay                  136
+3165    Manual - Vision Tool    2    San Francisco           189
+3165    Manual - Vision Tool    6    Sydney                  141
+3167    Manual - Vision OS/2    2    San Francisco           189
+3167    Manual - Vision OS/2    6    Sydney                  141
+3170    Smart Suite - V/SP      2    San Francisco           212
+3170    Smart Suite - V/SP      5    Toronto                 163
+3170    Smart Suite - V/SP      6    Sydney                  149
+3170    Smart Suite - V/SP      7    Mexico City             136
+3170    Smart Suite - V/SP      8    Beijing                 123
+3171    Smart Suite - S3.3/E    2    San Francisco           213
+3171    Smart Suite - S3.3/E    5    Toronto                 163
+3171    Smart Suite - S3.3/E    6    Sydney                  149
+3171    Smart Suite - S3.3/E    7    Mexico City             136
+3171    Smart Suite - S3.3/E    8    Beijing                 124
+3172    Graphics - DIK+         2    San Francisco           213
+3172    Graphics - DIK+         5    Toronto                 163
+3172    Graphics - DIK+         6    Sydney                  150
+3172    Graphics - DIK+         7    Mexico City             136
+3172    Graphics - DIK+         8    Beijing                 124
+3173    Graphics - SA           2    San Francisco           213
+3173    Graphics - SA           5    Toronto                 163
+3173    Graphics - SA           6    Sydney                  150
+3173    Graphics - SA           7    Mexico City             137
+3173    Graphics - SA           8    Beijing                 124
+3175    Project Management -    2    San Francisco           213
+3175    Project Management -    5    Toronto                 164
+3175    Project Management -    6    Sydney                  150
+3175    Project Management -    7    Mexico City             137
+3175    Project Management -    8    Beijing                 124
+3176    Smart Suite - V/EN      2    San Francisco           213
+3176    Smart Suite - V/EN      5    Toronto                 164
+3176    Smart Suite - V/EN      6    Sydney                  150
+3176    Smart Suite - V/EN      7    Mexico City             137
+3176    Smart Suite - V/EN      8    Beijing                 124
+3177    Smart Suite - V/FR      2    San Francisco           214
+3177    Smart Suite - V/FR      5    Toronto                 164
+3177    Smart Suite - V/FR      6    Sydney                  150
+3177    Smart Suite - V/FR      7    Mexico City             137
+3177    Smart Suite - V/FR      8    Beijing                 125
+3178    Spreadsheet - SSP/V     2    San Francisco           214
+3178    Spreadsheet - SSP/V     5    Toronto                 164
+3178    Spreadsheet - SSP/V     6    Sydney                  151
+3179    Spreadsheet - SSS/S     2    San Francisco           214
+3179    Spreadsheet - SSS/S     5    Toronto                 164
+3179    Spreadsheet - SSS/S     6    Sydney                  151
+3182    Word Processing - SW    2    San Francisco           214
+3182    Word Processing - SW    5    Toronto                 165
+3182    Word Processing - SW    6    Sydney                  151
+3183    Word Processing - SW    2    San Francisco           214
+3183    Word Processing - SW    5    Toronto                 165
+3183    Word Processing - SW    6    Sydney                  151
+3189    Plastic Stock - G       3    New Jersey              181
+3189    Plastic Stock - G       5    Toronto                 157
+3189    Plastic Stock - G       6    Sydney                  145
+3189    Plastic Stock - G       7    Mexico City             133
+3189    Plastic Stock - G       8    Beijing                 121
+3189    Plastic Stock - G       9    Bombay                  109
+3191    Plastic Stock - O       3    New Jersey              181
+3191    Plastic Stock - O       5    Toronto                 157
+3191    Plastic Stock - O       6    Sydney                  145
+3191    Plastic Stock - O       7    Mexico City             133
+3191    Plastic Stock - O       8    Beijing                 121
+3191    Plastic Stock - O       9    Bombay                  109
+3193    Plastic Stock - W/HD    3    New Jersey              181
+3193    Plastic Stock - W/HD    5    Toronto                 157
+3193    Plastic Stock - W/HD    6    Sydney                  145
+3193    Plastic Stock - W/HD    7    Mexico City             133
+3193    Plastic Stock - W/HD    8    Beijing                 121
+3193    Plastic Stock - W/HD    9    Bombay                  109
+3204    Envoy DS                1    Southlake, Texas        221
+3204    Envoy DS                2    San Francisco           209
+3204    Envoy DS                3    New Jersey              197
+3204    Envoy DS                4    Seattle, Washington     185
+3204    Envoy DS                5    Toronto                 173
+3204    Envoy DS                6    Sydney                  161
+3204    Envoy DS                7    Mexico City             149
+3204    Envoy DS                8    Beijing                 137
+3204    Envoy DS                9    Bombay                  125
+3209    Sharpener - Pencil      6    Sydney                  148
+3225    Card Organizer - 100    6    Sydney                  150
+3246    Smart Suite - S4.0/S    2    San Francisco           225
+3246    Smart Suite - S4.0/S    5    Toronto                 175
+3246    Smart Suite - S4.0/S    6    Sydney                  161
+3246    Smart Suite - S4.0/S    7    Mexico City             148
+3246    Smart Suite - S4.0/S    8    Beijing                 136
+3247    Smart Suite - V/DE      2    San Francisco           225
+3247    Smart Suite - V/DE      5    Toronto                 175
+3247    Smart Suite - V/DE      6    Sydney                  162
+3247    Smart Suite - V/DE      7    Mexico City             148
+3247    Smart Suite - V/DE      8    Beijing                 136
+3248    Smart Suite - S4.0/D    2    San Francisco           225
+3248    Smart Suite - S4.0/D    5    Toronto                 175
+3248    Smart Suite - S4.0/D    6    Sydney                  162
+3248    Smart Suite - S4.0/D    7    Mexico City             149
+3248    Smart Suite - S4.0/D    8    Beijing                 136
+3250    Graphics - DIK          2    San Francisco           226
+3250    Graphics - DIK          5    Toronto                 176
+3250    Graphics - DIK          6    Sydney                  162
+3250    Graphics - DIK          7    Mexico City             149
+3250    Graphics - DIK          8    Beijing                 136
+3251    Project Management -    2    San Francisco           226
+3251    Project Management -    5    Toronto                 176
+3251    Project Management -    6    Sydney                  162
+3251    Project Management -    7    Mexico City             149
+3251    Project Management -    8    Beijing                 136
+3252    Project Management -    2    San Francisco           226
+3252    Project Management -    5    Toronto                 176
+3252    Project Management -    6    Sydney                  162
+3252    Project Management -    7    Mexico City             149
+3252    Project Management -    8    Beijing                 137
+3253    Smart Suite - S4.0/E    2    San Francisco           226
+3253    Smart Suite - S4.0/E    5    Toronto                 176
+3253    Smart Suite - S4.0/E    6    Sydney                  163
+3253    Smart Suite - S4.0/E    7    Mexico City             149
+3253    Smart Suite - S4.0/E    8    Beijing                 137
+3255    Spreadsheet - SSS/CD    2    San Francisco           226
+3255    Spreadsheet - SSS/CD    5    Toronto                 176
+3255    Spreadsheet - SSS/CD    6    Sydney                  163
+3256    Spreadsheet - SSS/V     2    San Francisco           227
+3256    Spreadsheet - SSS/V     5    Toronto                 177
+3256    Spreadsheet - SSS/V     6    Sydney                  163
+3257    Web Browser - SB/S 2    2    San Francisco           227
+3257    Web Browser - SB/S 2    5    Toronto                 177
+3257    Web Browser - SB/S 2    6    Sydney                  163
+3257    Web Browser - SB/S 2    7    Mexico City             150
+3257    Web Browser - SB/S 2    8    Beijing                 137
+3258    Web Browser - SB/V 1    2    San Francisco           227
+3258    Web Browser - SB/V 1    5    Toronto                 177
+3258    Web Browser - SB/V 1    6    Sydney                  163
+3258    Web Browser - SB/V 1    7    Mexico City             150
+3258    Web Browser - SB/V 1    8    Beijing                 137
+3260    Word Processing - SW    2    San Francisco           227
+3260    Word Processing - SW    5    Toronto                 177
+3260    Word Processing - SW    6    Sydney                  164
+3300    Screws <S.32.P>         1    Southlake, Texas        222
+3300    Screws <S.32.P>         2    San Francisco           210
+3300    Screws <S.32.P>         3    New Jersey              304
+3300    Screws <S.32.P>         4    Seattle, Washington     266
+3300    Screws <S.32.P>         5    Toronto                 237
+3300    Screws <S.32.P>         6    Sydney                  214
+3300    Screws <S.32.P>         7    Mexico City             196
+3300    Screws <S.32.P>         8    Beijing                 178
+3300    Screws <S.32.P>         9    Bombay                  161
+3301    Screws <B.28.P>         1    Southlake, Texas        222
+3301    Screws <B.28.P>         2    San Francisco           210
+3301    Screws <B.28.P>         3    New Jersey              304
+3301    Screws <B.28.P>         4    Seattle, Washington     266
+3301    Screws <B.28.P>         5    Toronto                 237
+3301    Screws <B.28.P>         6    Sydney                  214
+3301    Screws <B.28.P>         7    Mexico City             196
+3301    Screws <B.28.P>         8    Beijing                 178
+3301    Screws <B.28.P>         9    Bombay                  161
+3331    Monitor 21/HR           2    San Francisco           215
+3331    Monitor 21/HR           4    Seattle, Washington     271
+3331    Monitor 21/HR           6    Sydney                  221
+3331    Monitor 21/HR           8    Beijing                 183
+3331    Monitor 21/HR           9    Bombay                  165
+3334    HD 12GB /R              2    San Francisco           216
+3334    HD 12GB /R              4    Seattle, Washington     272
+3334    HD 12GB /R              6    Sydney                  222
+3334    HD 12GB /R              8    Beijing                 184
+3334    HD 12GB /R              9    Bombay                  166
+3337    Mobile Web Phone        2    San Francisco           264
+3337    Mobile Web Phone        5    Toronto                 199
+3337    Mobile Web Phone        6    Sydney                  184
+3337    Mobile Web Phone        7    Mexico City             170
+3337    Mobile Web Phone        8    Beijing                 156
+3350    Plasma Monitor 10/LE    2    San Francisco           232
+3350    Plasma Monitor 10/LE    4    Seattle, Washington     208
+3350    Plasma Monitor 10/LE    6    Sydney                  184
+3350    Plasma Monitor 10/LE    8    Beijing                 160
+3350    Plasma Monitor 10/LE    9    Bombay                  148
+3354    HD 12GB /I              2    San Francisco           219
+3354    HD 12GB /I              4    Seattle, Washington     275
+3354    HD 12GB /I              6    Sydney                  225
+3354    HD 12GB /I              8    Beijing                 187
+3354    HD 12GB /I              9    Bombay                  169
+3355    HD 8GB /SI              2    San Francisco           219
+3355    HD 8GB /SI              4    Seattle, Washington     275
+3355    HD 8GB /SI              6    Sydney                  225
+3355    HD 8GB /SI              8    Beijing                 187
+3355    HD 8GB /SI              9    Bombay                  169
+3359    SDRAM - 16 MB           2    San Francisco           220
+3359    SDRAM - 16 MB           4    Seattle, Washington     276
+3359    SDRAM - 16 MB           6    Sydney                  226
+3359    SDRAM - 16 MB           8    Beijing                 188
+3359    SDRAM - 16 MB           9    Bombay                  170
+3361    Spreadsheet - SSP/S     2    San Francisco           244
+3361    Spreadsheet - SSP/S     5    Toronto                 193
+3361    Spreadsheet - SSP/S     6    Sydney                  180
+3362    Web Browser - SB/S 4    2    San Francisco           244
+3362    Web Browser - SB/S 4    5    Toronto                 194
+3362    Web Browser - SB/S 4    6    Sydney                  180
+3362    Web Browser - SB/S 4    7    Mexico City             167
+3362    Web Browser - SB/S 4    8    Beijing                 154
+3391    PS 110/220              1    Southlake, Texas        251
+3391    PS 110/220              2    San Francisco           239
+3391    PS 110/220              3    New Jersey              227
+3391    PS 110/220              4    Seattle, Washington     215
+3391    PS 110/220              5    Toronto                 203
+3391    PS 110/220              6    Sydney                  191
+3391    PS 110/220              7    Mexico City             179
+3391    PS 110/220              8    Beijing                 167
+3391    PS 110/220              9    Bombay                  155
+3400    HD 8GB /SE              2    San Francisco           226
+3400    HD 8GB /SE              4    Seattle, Washington     282
+3400    HD 8GB /SE              6    Sydney                  232
+3400    HD 8GB /SE              8    Beijing                 194
+3400    HD 8GB /SE              9    Bombay                  179
+3501    C for SPNIX4.0 - Sys    2    San Francisco           353
+3501    C for SPNIX4.0 - Sys    5    Toronto                 220
+3501    C for SPNIX4.0 - Sys    6    Sydney                  320
+3501    C for SPNIX4.0 - Sys    7    Mexico City             294
+3501    C for SPNIX4.0 - Sys    8    Beijing                 268
+3502    C for SPNIX3.3 -Sys/    2    San Francisco           267
+3502    C for SPNIX3.3 -Sys/    5    Toronto                 216
+3502    C for SPNIX3.3 -Sys/    6    Sydney                  202
+3502    C for SPNIX3.3 -Sys/    7    Mexico City             189
+3502    C for SPNIX3.3 -Sys/    8    Beijing                 176
+3503    C for SPNIX3.3 - Sea    2    San Francisco           267
+3503    C for SPNIX3.3 - Sea    5    Toronto                 216
+3503    C for SPNIX3.3 - Sea    6    Sydney                  203
+3503    C for SPNIX3.3 - Sea    7    Mexico City             189
+3503    C for SPNIX3.3 - Sea    8    Beijing                 177
+3511    Paper - HQ Printer      6    Sydney                  212
+3515    Lead Replacement        6    Sydney                  213
