@@ -1,7 +1,0 @@
-{
-    "empleados": [
-        {"nombre": "Juan", "apellido": "Pérez", "telefono": "123456789", "especialidad": ["Redes", "Seguridad"], "departamento": "IT"},
-        {"nombre": "María", "apellido": "Gómez", "telefono": "987654321", "especialidad": ["Desarrollo Web", "Bases de Datos"], "departamento": "Desarrollo"},
-        {"nombre": "Carlos", "apellido": "Fernández", "telefono": "456123789", "especialidad": ["Soporte Técnico"], "departamento": "Soporte"}
-    ]
-}

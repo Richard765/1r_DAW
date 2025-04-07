@@ -1,0 +1,21 @@
+[
+	{	"idPersona":1,
+		"nom":"joan",
+		"llinatge":"pérez",
+		"edat":30,
+		"aficions":	[
+						"Llegir",
+						"Programar"
+					]
+	},
+	{
+		"idPersona":2,
+		"nom":"maría",
+		"llinatge":"martínez",
+		"edat":30,
+		"aficions":	[
+						"Llegir",
+						"Programar"
+					]
+	}
+]

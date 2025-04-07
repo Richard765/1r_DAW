@@ -22,7 +22,97 @@
 <div id="vueltas"></div>
 <!-- Aquí debe ir tu código JavaScript -->
 <script>
-// ¡Completa el código del cronómetro utilizando clausuras!
+// Función principal que crea una clausura 
+    function crearCronometro() { 
+        // Variables privadas (solo accesibles dentro de esta función) 
+        let _centesimas = 0; // '_' indica que son variables privadas (es solo por convención, no es obligatorio) 
+        let _segundos = 0; 
+        let _minutos = 0; 
+        let _intervalo = null; 
+        let _contadorVueltas = 1; 
+        
+        // Función para actualizar el display en la página 
+        function actualizarDisplay() { 
+            const minStr = _minutos.toString().padStart(2, "0"); 
+            const segStr = _segundos.toString().padStart(2, "0"); 
+            const centStr = _centesimas.toString().padStart(2, "0"); 
+            document.getElementById('display').textContent = `${minStr}:${segStr}:${centStr}`; 
+        }
+        
+        // Función que incrementa el tiempo del cronómetro 
+        function contar() { 
+            _centesimas++;
+            if (_centesimas === 100) {
+                _centesimas = 0;
+                _segundos++;
+                if (_segundos === 60) {
+                    _segundos = 0;
+                    _minutos++;
+                }
+            }
+            actualizarDisplay();
+        } 
+        
+        // Definimos los métodos públicos primero 
+        function iniciar() { 
+            if (_intervalo === null) {
+                _intervalo = setInterval(contar, 10);
+            }
+        }   
+        
+        function pausar() { 
+            if (_intervalo !== null) {
+                clearInterval(_intervalo);
+                _intervalo = null;
+            }
+        } 
+        
+        function reiniciar() { 
+            pausar();
+            _centesimas = 0;
+            _segundos = 0;
+            _minutos = 0;
+            _contadorVueltas = 1;
+            actualizarDisplay();
+            document.getElementById('vueltas').innerHTML = "";
+        } 
+        
+        function guardarVuelta() { 
+            if (_intervalo !== null) { 
+                const minStr = _minutos.toString().padStart(2, "0"); 
+                const segStr = _segundos.toString().padStart(2, "0");
+                const centStr = _centesimas.toString().padStart(2, "0"); 
+                
+                // Crear el elemento para la vuelta 
+                const vueltaElement = document.createElement('div'); 
+                vueltaElement.className = 'vuelta'; 
+                vueltaElement.innerHTML = ` 
+                <span class="numero-vuelta">Vuelta ${_contadorVueltas}</span> 
+                <span class="tiempo-vuelta"> ${minStr}:${segStr}:${centStr} </span>`; 
+                
+                // Agregar al contenedor de vueltas 
+                const vueltasContainer = document.getElementById('vueltas'); 
+                vueltasContainer.insertBefore(vueltaElement, 
+                vueltasContainer.firstChild); // Añade al principio 
+                
+                // Incrementar el contador de vueltas 
+                _contadorVueltas++; 
+            } 
+        } 
+        
+        // Devuelve un objeto con métodos públicos 
+        return {iniciar, pausar, reiniciar, guardarVuelta}; 
+    } 
+
+    // Inicializar el cronómetro 
+    const cronometro = crearCronometro(); 
+
+    // Configurar event listeners para los botones
+    document.getElementById('iniciar').addEventListener('click', () => cronometro.iniciar()); 
+    document.getElementById('pausar').addEventListener('click', () => cronometro.pausar()); 
+    document.getElementById('reiniciar').addEventListener('click', () => cronometro.reiniciar()); 
+    document.getElementById('guardar-vuelta').addEventListener('click', () => cronometro.guardarVuelta());
+
 </script>
 </body>
 </html>

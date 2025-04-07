@@ -1,0 +1,109 @@
+{
+    "jugador": {
+      "nom": "Joan",
+      "llinatges": "Garcia Pons",
+      "data_naixement": "1995-07-12",
+      "puntuacio": 1520
+    },
+    "pelicula": {
+      "titol": "L'Ombra del Vent",
+      "sinopsi": "Un thriller emocionant en una Barcelona gòtica...",
+      "data_estrena": "2024-06-15",
+      "edat_recomanada": 12,
+      "genere": "Drama",
+      "sessions": [
+        "16:00",
+        "18:30",
+        "21:00"
+      ]
+    },
+    "creuer": {
+      "titol": "Aventures Mediterrànies",
+      "port_sortida": "Barcelona",
+      "descripcio": "Un viatge inoblidable pel Mediterrani...",
+      "data_inici": "2025-05-10",
+      "data_fi": "2025-05-20",
+      "preu_per_persona": 1200,
+      "itinerari": [
+        {
+          "nom": "Marsella",
+          "pais": "França",
+          "dies_estada": 1
+        },
+        {
+          "nom": "Roma",
+          "pais": "Itàlia",
+          "dies_estada": 2
+        }
+      ]
+    },
+    "groupon": {
+      "nom_servei": "10 classes de tennis",
+      "descripcio": "Millora el teu servei amb aquestes classes personalitzades.",
+      "categoria": "sport",
+      "descompte": 50,
+      "preu_inicial": 100,
+      "preu_final": 50
+    },
+    "videojoc": {
+      "titol": "Legends of the Lost Kingdom",
+      "genere": ["Aventura", "RPG"],
+      "PEGI": 16,
+      "preu": 49.99,
+      "desenvolupador": "Epic Games",
+      "editor": "Ubisoft",
+      "data_llançament": "2024-11-20",
+      "plataformes": ["PC", "PlayStation 5", "Xbox Series X"],
+      "idiomes": ["Català", "Espanyol", "Anglès", "Francès"]
+    },
+    "campio": {
+      "nom": "Aurelius",
+      "tipus": "llegendari",
+      "rang": 5,
+      "nivell_rang": 60,
+      "habilitats": [
+        "Cremada divina",
+        "Escut de llum",
+        "Justícia celestial"
+      ],
+      "equipament": {
+        "arma": "Espasa sagrada",
+        "escut": "Muralla celestial",
+        "casc": "Elm de l'arquàngel",
+        "guantelete": "Guants de poder",
+        "cuirassa": "Placa d'or",
+        "botes": "Botes del vent"
+      }
+    },
+    "factura": {
+      "data_emissio": "2025-02-14",
+      "pagada": true,
+      "productes": [
+        {
+          "nom": "Portàtil HP",
+          "quantitat": 1,
+          "preu": 850.00
+        },
+        {
+          "nom": "Ratolí sense fils",
+          "quantitat": 2,
+          "preu": 25.00
+        }
+      ],
+      "client": {
+        "nif": "12345678X",
+        "nom": "Marta",
+        "llinatges": "Vila Soler",
+        "email": "marta.vila@example.com",
+        "telefon": "600123456",
+        "adreça": {
+          "cp": "08001",
+          "carrer": "Carrer Major",
+          "numero": 15,
+          "pis": 3,
+          "porta": "B"
+        }
+      }
+    }
+  }
+  

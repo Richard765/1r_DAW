@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitxes JSON Dinàmiques</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .fitxa {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .fitxa img {
+            max-width: 150px;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
+        .fitxa-content {
+            flex: 1;
+        }
+        .sessions span {
+            background: #198754;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Fitxes Generades</h1>
+        <div id="fitxes"></div>
+    </div>
+    <script>
+        const data = {
+           
+            "jugador": {
+                "nom": "Joan",
+                "llinatges": "Garcia Pons",
+                "data_naixement": "1995-07-12",
+                "puntuacio": 1520
+            },
+            "pelicula": {
+                "titol": "L'Ombra del Vent",
+                "sinopsi": "Un thriller emocionant en una Barcelona gòtica...",
+                "data_estrena": "2024-06-15",
+                "edat_recomanada": 12,
+                "genere": "Drama",
+                "sessions": ["16:00", "18:30", "21:00"]
+            },
+            "creuer": {
+                "titol": "Aventures Mediterrànies",
+                "port_sortida": "Barcelona",
+                "descripcio": "Un viatge inoblidable pel Mediterrani...",
+                "data_inici": "2025-05-10",
+                "data_fi": "2025-05-20",
+                "preu_per_persona": 1200
+            },
+            "groupon": {
+                "nom_servei": "10 classes de tennis",
+                "descripcio": "Millora el teu servei amb aquestes classes personalitzades.",
+                "categoria": "sport",
+                "descompte": 50,
+                "preu_inicial": 100,
+                "preu_final": 50
+            },
+            "videojoc": {
+                "titol": "Legends of the Lost Kingdom",
+                "genere": ["Aventura", "RPG"],
+                "PEGI": 16,
+                "preu": 49.99,
+                "desenvolupador": "Epic Games",
+                "editor": "Ubisoft",
+                "data_llançament": "2024-11-20",
+                "plataformes": ["PC", "PlayStation 5", "Xbox Series X"],
+                "idiomes": ["Català", "Espanyol", "Anglès", "Francès"]
+            },
+            "campio": {
+                "nom": "Aurelius",
+                "tipus": "llegendari",
+                "rang": 5,
+                "nivell_rang": 60,
+                "habilitats": [
+                    "Cremada divina",
+                    "Escut de llum",
+                    "Justícia celestial"
+                ],
+                "equipament": {
+                    "arma": "Espasa sagrada",
+                    "escut": "Muralla celestial",
+                    "casc": "Elm de l'arquàngel",
+                    "guantelete": "Guants de poder",
+                    "cuirassa": "Placa d'or",
+                    "botes": "Botes del vent"
+                }
+            },
+            "factura": {
+                "data_emissio": "2025-02-14",
+                "pagada": true,
+                "productes": [
+                    {
+                        "nom": "Portàtil HP",
+                        "quantitat": 1,
+                        "preu": 850.00
+                    },
+                    {
+                        "nom": "Ratolí sense fils",
+                        "quantitat": 2,
+                        "preu": 25.00
+                    }
+                ],
+                "client": {
+                    "nif": "12345678X",
+                    "nom": "Marta",
+                    "llinatges": "Vila Soler",
+                    "email": "marta.vila@example.com",
+                    "telefon": "600123456",
+                    "adreça": {
+                        "cp": "08001",
+                        "carrer": "Carrer Major",
+                        "numero": 15,
+                        "pis": 3,
+                        "porta": "B"
+                    }
+                }
+            }
+        
+        };
+
+        function generarFitxes() {
+            const fitxesContainer = document.getElementById("fitxes");
+            
+            for (const [clau, objecte] of Object.entries(data)) {
+                const fitxa = document.createElement("div");
+                fitxa.classList.add("fitxa", "d-flex", "border", "p-3", "mb-3");
+                
+                let contingut = `<div class='fitxa-content'>`;
+                contingut += `<h3 class='text-primary'>${objecte.titol || objecte.nom || clau}</h3>`;
+                
+                for (const [key, value] of Object.entries(objecte)) {
+                    if (Array.isArray(value)) {
+                        contingut += `<p><strong>${key}:</strong> ${value.join(", ")}</p>`;
+                    } else if (typeof value === "object") {
+                        contingut += `<p><strong>${key}:</strong> ${JSON.stringify(value)}</p>`;
+                    } else {
+                        contingut += `<p><strong>${key}:</strong> ${value}</p>`;
+                    }
+                }
+                
+                contingut += `</div>`;
+                fitxa.innerHTML = contingut;
+                fitxesContainer.appendChild(fitxa);
+            }
+        }
+        
+        document.addEventListener("DOMContentLoaded", generarFitxes);
+    </script>
+</body>
+</html>
