@@ -4,6 +4,10 @@
  */
 package ACT11_2D;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -29,12 +33,13 @@ public class Main {
         }
     }
     
-    private static void llegirArxiu(String arxiu, List<Product> products, List<Warehouse> warehouses) throws IOException, NumberFormatException, IllegalArgumentException {
+    private static void carregaArxiu(String arxiu, List<Product> products, List<Warehouse> warehouses) throws IOException, NumberFormatException, IllegalArgumentException {
         String linea;
         int _productId, _warehouseId, _warehouseName;
         String _productName, _warehouseName;
         String[] parts;
-        try () {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(arxiu));
+              BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(arxiuLog)) ) {
             if (!(linea.isEmpty() || linea.startsWith("#"))) {
                 _productId = Integer.parseInt(linea.substring(0, 8).trim());
                 _productName = linea.substring(8,32).trim();
