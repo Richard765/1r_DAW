@@ -7,7 +7,6 @@ portatiles:
       - "Antivirus"
       - "SO Microsoft"
       - "Office 360"
-  
   - nom: "Razor 578-H"
     CPUs: "8 nuclis"
     RAM: "8GB"
@@ -16,7 +15,6 @@ portatiles:
       - "Antivirus"
       - "SO Linux"
       - "Libre Office"
-
   - nom: "HP Pavilion 21s"
     CPUs: "12 nuclis"
     RAM: "16GB"

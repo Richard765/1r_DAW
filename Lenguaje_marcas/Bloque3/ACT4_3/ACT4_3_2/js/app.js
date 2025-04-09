@@ -8,7 +8,11 @@ let figuresList = [];
 
 // TODO:Petició asíncona per recuperar les figures
 function getFigures() {
+    const promise = fetch("./data/star-wars-figures.json");
 
+    promise.then(function()) {
+        
+    }
 }
 
 
