@@ -38,3 +38,12 @@ async function fetchUser() {
 fetchUser();
 
 //Ejercicio 10
+/*async function fetchUser() {
+    try {
+        const response = await fetch("");
+        if (!response.ok) {
+            throw new Error(`Ha fallado con el codigo HTTP ${response.status}`);
+        }
+        console.log
+    }
+}*/

@@ -39,3 +39,74 @@ BEGIN
 -- Actividad 3
 CREATE TRIGGER check_inventory
     BEFORE INSERT 
+    
+    
+    
+    
+CREATE OR REPLACE TRIGGER trg_sequences
+BEFORE INSERT ON promotions
+FOR EACH ROW
+DECLARE
+    tmp NUMBER;
+BEGIN
+    SELECT contador INTO tmp
+
+
+
+--------------------------------------------------------------------------------------
+
+SELECT * FROM promotions;
+ALTER TABLE promotions ADD promo_percentage NUMBER(5,2);
+
+ALTER TABLE promotions RENAME TO pro
+-------------------------------------------------------------------------------------
+
+--------Modificar una foreign key y borrar la foreign key
+ALTER TABLE 
+--------Modificar algun campo y que de error, cambiar un (EJ:VARCHAR A NUMBER)
+
+--------Cambiar un number a un varchar
+
+
+
+--------Deshabilitar ck, modificar 2 campos y rehabilitar la ck
+--Primer ejemplo
+ALTER TABLE employees
+    DISABLE CONSTRAINT EMP_DEP_FK;
+
+ALTER TABLE job_history
+    DISABLE CONSTRAINT JHIS_DEP_FK;
+
+ALTER TABLE departments
+    DISABLE CONSTRAINT DEPT_ID_PK;
+    
+ALTER TABLE departments MODIFY department_id NUMBER(4);
+ALTER TABLE employees MODIFY department_id NUMBER(4);
+ALTER TABLE job_history MODIFY department_id NUMBER(4);
+
+ALTER TABLE departments MODIFY department_id NUMBER(5, 1);
+ALTER TABLE employees MODIFY department_id NUMBER(5, 1);
+ALTER TABLE job_history MODIFY department_id NUMBER(5, 1);
+
+ALTER TABLE employees
+    ENABLE CONSTRAINT EMP_DEP_FK;
+    
+ALTER TABLE job_history
+    ENABLE CONSTRAINT JHIS_DEP_FK;
+
+ALTER TABLE departments
+    ENABLE CONSTRAINT DEPT_ID_PK;
+    
+    
+--SEGUNDO EJEMPLO
+ALTER TABLE employees
+    DISABLE CONSTRAINT EMP_DEP_FK;
+
+ALTER TABLE job_history
+    DISABLE CONSTRAINT JHIS_DEP_FK;
+
+ALTER TABLE departments
+    DISABLE CONSTRAINT DEPT_ID_PK;
+
+CREATE TABLE departments_temp
+    department_id
