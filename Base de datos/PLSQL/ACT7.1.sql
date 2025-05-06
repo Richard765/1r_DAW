@@ -110,3 +110,8 @@ ALTER TABLE departments
 
 CREATE TABLE departments_temp
     department_id
+    
+
+-------------------------------------------------------
+-- 
+ALTER TABLE
