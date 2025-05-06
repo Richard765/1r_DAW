@@ -1,0 +1,68 @@
+{
+  "canciones": [
+    {
+      "id": 1,
+      "titulo": "Bohemian Rhapsody",
+      "artista": "Queen",
+      "album": "A Night at the Opera",
+      "publicacion": "1975",
+      "duracion": "5:55"
+    },
+    {
+      "id": 2,
+      "titulo": "Stairway to Heaven",
+      "artista": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "publicacion": "1971",
+      "duracion": "8:02"
+    },
+    {
+      "id": 3,
+      "titulo": "Hotel California",
+      "artista": "Eagles",
+      "album": "Hotel California",
+      "publicacion": "1976",
+      "duracion": "6:30"
+    },
+    {
+      "id": 4,
+      "titulo": "Like a Rolling Stone",
+      "artista": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "publicacion": "1965",
+      "duracion": "6:13"
+    },
+    {
+      "id": 5,
+      "titulo": "Smells Like Teen Spirit",
+      "artista": "Nirvana",
+      "album": "Nevermind",
+      "publicacion": "1991",
+      "duracion": "5:01"
+    },
+    {
+      "id": 6,
+      "titulo": "Hallelujah",
+      "artista": "Leonard Cohen",
+      "album": "Various Positions",
+      "publicacion": "1984",
+      "duracion": "4:37"
+    },
+    {
+      "id": 7,
+      "titulo": "Wonderwall",
+      "artista": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "publicacion": "1995",
+      "duracion": "4:18"
+    },
+    {
+      "id": 8,
+      "titulo": "Tears in Heaven",
+      "artista": "Eric Clapton",
+      "album": "Unplugged",
+      "publicacion": "1992",
+      "duracion": "4:32"
+    }
+  ]
+}

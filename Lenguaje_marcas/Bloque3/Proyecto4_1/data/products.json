@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "name":"Brutus",
+        "price": "100",
+        "colors": "Dos colores",
+        "image":"brutus-1.webp"
+
+    },
+
+    {
+        "id":2,
+        "name":"Camaleon",
+        "price": "99",
+        "colors": "Dos colores",
+        "image":"camaleon.webp"
+
+    },
+
+    {
+        "id":3,
+        "name":"Courb",
+        "price": "79",
+        "colors": "Dos colores",
+        "image":"courb.webp"
+
+    },
+
+    {
+        "id":4,
+        "name":"Ground Michelin",
+        "price": "70",
+        "colors": "Dos colores",
+        "image":"ground-michelin.webp"
+
+    },
+
+    {
+        "id":5,
+        "name":"Pix",
+        "price": "59",
+        "colors": "Dos colores",
+        "image":"pix.webp"
+
+    },
+
+    {
+        "id":6,
+        "name":"Runner",
+        "price": "120",
+        "colors": "Dos colores",
+        "image":"runner-2.webp"
+
+    },
+
+    {
+        "id":7,
+        "name":"Runner C21",
+        "price": "129",
+        "colors": "Dos colores",
+        "image":"runner-c21.webp"
+
+    },
+
+    {
+        "id":8,
+        "name":"Tunner",
+        "price": "89",
+        "colors": "Dos colores",
+        "image":"tunner.webp"
+
+    }
+]

@@ -1,0 +1,334 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding: 0;
+}
+@font-face { 
+    font-family: CamperLab; 
+    src: url("../fonts/folded-regular-webfont.woff2");
+}
+@font-face { 
+    font-family: ModerneMedium; 
+    src: url("../fonts/ModerneLLWeb-Medium.woff2");
+}
+*{
+    box-sizing: border-box;
+}
+
+/* HEADER */
+/*----------------------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+
+    position:fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #DFDFDF;
+    box-shadow: 0 3px 3px rgba(138, 135, 135, 0.5);
+}
+header nav{
+    display: flex;
+    justify-content: start;
+}
+header nav a {
+    display: inline-block;
+    padding:0px 1.1rem;
+    font-family:ModerneMedium;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration-style: none;
+    color:black;
+    font-size: 0.8rem;
+}
+
+.active,  nav a:hover{
+    border-bottom: 3px solid #DA291C;
+    padding-bottom:10px;
+}
+.icons i{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+#input-search{
+    border:0px;
+    border-bottom: 1px solid #cacaca;
+    width: 200px;
+    height: 30px;
+}
+#input-search:focus{
+    outline: none;
+}
+
+/* HERO */
+/*----------------------------------*/
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 400px;
+    text-align: center;
+    color:#fff;
+    background-image: url('../img/background-1.avif');
+    background-size: cover;
+    background-position-y: center;
+
+}
+#hero h1{
+    font-family: ModerneMedium;
+    padding: 5px;
+    width: 300px;
+    background-color: rgba(63, 61, 61, 0.5);
+    font-size: 2rem;
+}
+#hero p{
+    font-size: 1.2rem;
+}
+button{
+    padding: 10px 30px;
+    min-width: 150px;
+    margin-right: 10px;
+    color:black;
+    background-color: #fff;
+    border:1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+   cursor: pointer;
+   margin-top:3rem;
+}
+button:hover{
+    background-color: black;
+    color:#fff
+}
+
+/* Info comapany */
+/*----------------------------------*/
+#info-company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem;
+}
+#info-company h3{
+    font-size: 2.2rem;
+    font-family: ModerneMedium;
+    font-weight: bolder;
+
+}
+.never-pefect, .tiendas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.never-pefect{
+    background-image: url('../img/background-3.avif');
+    background-size: cover;
+}
+.never-perfect h4{
+    text-shadow: 3px 3px 3px rgba(3, 23, 135, 0.5);
+}
+.tiendas{
+    background-image: url('../img/background-4.avif');
+    background-size: cover;
+}
+.tiendas h3{
+    color:#fff;
+    text-shadow: 3px 3px 3px rgba(3, 23, 135, 0.5);
+}
+
+/* GRID */
+/*----------------------------------*/
+#productos{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:0.5rem;
+    row-gap: 1rem;
+    padding: 1rem; */
+}
+.card{
+    max-width: 500px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card .name{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.card p{
+    margin-bottom: 0.5rem;
+}
+
+/* Effect size over card (extra) */
+/*----------------------------------*/
+.size{   
+    display: none;
+    
+    position: absolute;
+    z-index: 5;
+    top:70%;
+    left:5px;
+}
+.size span{
+    display:inline-block;
+    margin:5px;
+    padding: 5px;
+    border:1px solid #cacaca;
+    background-color: #fff;
+}
+.card:hover img{
+    border:1px solid rgb(145, 142, 142);
+    box-shadow: 3px 3px 5px rgba(202, 202, 202, 0.9);
+}
+.card:hover .size{
+    display: block;
+    cursor: pointer;
+}
+
+/* SLOGAN TWINS */
+/*----------------------------------*/
+.slogan{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 8rem;
+    align-items: center;
+}
+.slogan div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDFDF;
+}
+.slogan .title{
+    background-color:black ;
+    text-align: center;
+    height: 8rem;
+}
+.slogan h3{
+    color:#fff;
+    font-family: CamperLab;
+    font-size: 2.4rem;
+    
+}
+.slogan h4{
+    text-align: center;
+    height: 8rem;
+    line-height: 8rem;
+    font-family: ModerneMedium;
+    font-size: 1.4rem;
+}
+
+#twins-slogan{
+    display: grid;
+    font-family: ModerneMedium, arial;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    background-image: url('../img/animation.gif');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left:40%;
+}
+#twins-slogan p{
+    padding: 20px;
+}
+#twins-slogan img{
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+/*----------------------------------*/
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    height: 50px;
+    font-size: 0.8rem;
+    background-color: #DFDFDF;
+    padding: 8px;
+    font-weight: bold;
+    margin-top:0.7rem;
+}
+footer .icons img{
+    height: 22px;
+    margin-right: 3px;
+}
+footer img{
+    width:auto;
+    height: 100%;
+}
+footer .lang{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.icon-grid, .icon-filter{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+/*
+Estil grids.
+*/
+.grid-4{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem;
+    gap:1rem;
+}
+.grid-6{
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+    margin: 3rem;
+    gap:1rem;
+}
+
+.options{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color:#f8f8f8;
+    
+}
+input, select{
+    padding: 0.4rem;
+    font-size: 1.0rem;
+    min-width: 200px;
+    background-color: #fff;
+    border: 0;
+}
+
+.card .favorite{
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 3;
+}
+.favorite .on{
+    color:rgb(214, 32, 32);
+    text-shadow: 2px 2px 2px rgba(29, 28, 28, 0.5);
+}
+.fa-heart{
+    font-size: 1.4rem;
+    cursor: pointer;
+}

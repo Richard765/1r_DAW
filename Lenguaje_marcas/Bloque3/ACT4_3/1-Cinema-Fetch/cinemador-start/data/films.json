@@ -1,0 +1,33 @@
+[
+	{
+		"titol":"El rey león 2 remake forever",
+		"sinopsi":"Después del asesinato de su padre, un joven príncipe león huye de su reino solo para aprender el verdadero significado de responsabilidad y valentía.",
+		"genere":"Dibuixos animats",
+		"edat":3,
+		"estrena":false,
+		"img":"rey-leon.jpg",
+		"sessions":["17:00","19:00","21:00","23:00"]
+	},
+
+	{
+		"titol":"Terminator",
+		"sinopsi":"Después del asesinato de su padre, un joven príncipe león huye de su reino solo para aprender el verdadero significado de responsabilidad y valentía.",
+		"genere":"Acción",
+		"edat":16,
+		"estrena":false,
+		"img":"terminator.jpg",
+		"sessions":["17:00","19:00","21:00","23:00"]
+	},
+
+	{
+		"titol":"Predator",
+		"sinopsi":"Después del asesinato de su padre, un joven príncipe león huye de su reino solo para aprender el verdadero significado de responsabilidad y valentía.",
+		"genere":"Terror",
+		"edat":1,
+		"estrena":false,
+		"img":"predator.jpg",
+		"sessions":["17:00","19:00","21:00","23:00"]
+	}
+
+
+]
