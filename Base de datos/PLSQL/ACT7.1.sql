@@ -108,10 +108,113 @@ ALTER TABLE job_history
 ALTER TABLE departments
     DISABLE CONSTRAINT DEPT_ID_PK;
 
-CREATE TABLE departments_temp
-    department_id
+CREATE TABLE departments_temp (
+    department_id NUMBER(2)
+);
     
 
 -------------------------------------------------------
 -- 
 ALTER TABLE
+
+
+
+
+-------------------------------------------------------
+--CASES 3
+--Case 3.1
+CREATE TABLE customers
+
+--Case 3.2
+CREATE TABLE customers (
+    customer_id NUMBER(12),
+    cust_name VARCHAR2(100),
+    cust_first_name VARCHAR(20),
+    cust_last_name VARCHAR(20),
+    cust_email VARCHAR(50),
+    account_mgr_id NUMBER(6),
+    cust_geo_location SDO_GEOMETRY,
+    
+
+CREATE TABLE cust_addresses (
+    customer_id NUMBER(2),
+    cust_address VARCHAR2(200)
+);
+
+--Case 3.3
+
+
+
+--Creamos tablas copia para no degradar la BDD de cara
+--a posteriores selects. Ojo que las FK no estarán definidas
+--pero no las usaremos por simplicidad en la resolución 
+--de los ejercicios
+
+create table customers_2 as 
+select * from customers;
+
+create table orders_2 as 
+select * from orders;
+
+create table order_items_2 as
+select * from order_items;
+
+-- Procedure to remove a customer
+create or replace NONEDITIONABLE PROCEDURE del_customer (cust_id HR.customers_2.customer_id%type) is
+begin
+    delete from customers_2 where customer_id = cust_id;
+end;
+
+-- Procedure to delete a range of customers
+create or replace NONEDITIONABLE PROCEDURE del_customers (cust_id_l HR.customers_2.customer_id%type, cust_id_h HR.customers_2.customer_id%type) is
+  cursor customer_c is -- define cursor
+    select customer_id from customers_2
+        where customer_id between cust_id_l and cust_id_h;
+  row_customers customer_c%rowtype;  --define record for cursor
+begin
+ open customer_c;  -- open cursor
+ loop
+   fetch customer_c into row_customers; 
+   exit when customer_c%notfound;
+   dbms_output.put_line('Deleting customer: ' || row_customers.customer_id);
+   del_orders(row_customers.customer_id);
+   del_customer(row_customers.customer_id);
+ end loop;
+ close customer_c;
+end;
+
+-- Procedure to delete an order_items
+create or replace NONEDITIONABLE PROCEDURE del_order_items (order_id HR.orders_2.order_id%type) is
+begin
+    delete from order_items_2 where order_id = order_id;
+end;
+
+-- Procedure to delete an order
+create or replace NONEDITIONABLE PROCEDURE del_orders (cust_id HR.customers_2.customer_id%type) is
+  cursor orders_c is -- define cursor
+    select order_id from orders_2 where customer_id = cust_id;
+  row_orders orders_c%rowtype;  --define record for cursor
+begin
+ open orders_c;  -- open cursor
+ loop
+   fetch orders_c into row_orders; 
+   exit when orders_c%notfound;
+   dbms_output.put_line('Deleting order: ' || row_orders.order_id);
+   del_order_items(row_orders.order_id);
+   delete from orders where order_id = row_orders.order_id;
+ end loop;
+ close orders_c;
+end;
+
+--Main program
+--On to output messages
+set serveroutput ON; 
+Declare
+	l constant HR.customers_2.customer_id%type := 200; --Constant1 for employee
+	h constant HR.customers_2.customer_id%type := 210; --Constant2 for employee
+Begin 
+	del_customers(l,h);
+End;
+/
+	
+    

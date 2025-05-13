@@ -8,8 +8,6 @@ package ACT12_1A;
  *
  * @author Richard
  */
-public class Main {
-    public static void main(String[] args) {
-        
-    }
+public class ACT12_1B {
+    
 }
