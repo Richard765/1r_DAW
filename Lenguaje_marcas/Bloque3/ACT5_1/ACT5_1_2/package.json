@@ -1,0 +1,15 @@
+{
+  "name": "act5_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server --watch usuaris.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

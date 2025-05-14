@@ -1,0 +1,22 @@
+{
+    "usuaris": [
+        {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "nom": "George",
+        "cognom": "Bluth"
+        },
+        {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "nom": "Janet",
+        "cognom": "Weaver"
+        },
+        {
+        "id": 3,
+        "email": "emma.wong@reqres.in",
+        "nom": "Emma",
+        "cognom": "Wong"
+        }
+    ]
+}
