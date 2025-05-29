@@ -10,7 +10,7 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        String arxiu = "C:\\temp\\ACT12_3A.log";
+        String arxiu = "C:\\temp\\ACT11_3A.log";
         Map<LocalDateTime, MissatgeError> variables = new TreeMap<>();
 
         try ( BufferedReader bufferedReader = new BufferedReader(new FileReader(arxiu));

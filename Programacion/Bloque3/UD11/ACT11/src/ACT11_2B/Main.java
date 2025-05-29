@@ -71,7 +71,7 @@ public class Main {
                         
                         employee = new Employee( Integer.parseInt(parts[0].trim()),    // employeeId
                                                  parts[1].trim(),                      // firstName
-                                                 parts[2].trim(),                      // lasttName
+                                                 parts[2].trim(),                      // lastName
                                                  parts[3].trim(),                      // email
                                                  department );                         // department
                         employees.add(employee);
@@ -102,7 +102,7 @@ public class Main {
     }    
 
     private static Department cercaDepartment(List<Department> departments, int departmentId) {
-        int index = departments.indexOf(new Department(departmentId, "."));
+        int index = departments.indexOf(new Department(departmentId, "."));  // crea un 'department' temporal per a fer la cerca per 'Objecte'
         
         if (index != -1)
             return departments.get( index );

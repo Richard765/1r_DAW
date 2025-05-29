@@ -1,7 +1,9 @@
 package ACT11_2D;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,6 +13,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         // Arxius per a la càrrega de dades:
         String arxiu = "C:\\temp\\ACT11_2D_products_per_warehouses.csv";
+        String arxiuLog = "C:\\temp\\ACT11_2D_log.txt";
         
         // Estructures de memòria:
         List<Warehouse> warehouses = new ArrayList<>();
@@ -18,7 +21,7 @@ public class Main {
         
         try {
             // Llegir el contingut dels arxius línia a línia:
-            LlegeixArxiu(arxiu, products, warehouses);
+            CarregaArxiu(arxiu, arxiuLog, products, warehouses);
 
             // Mostrar les estructures de memòria:
             System.out.println("PRODUCTS");
@@ -30,34 +33,41 @@ public class Main {
         }
     }
 
-    private static void LlegeixArxiu(String arxiu,  List<Product> products, List<Warehouse> warehouses) throws IOException, NumberFormatException, IllegalArgumentException {
+    private static void CarregaArxiu(String arxiu, String arxiuLog,  List<Product> products, List<Warehouse> warehouses) throws IOException, NumberFormatException, IllegalArgumentException {
         String linea;
-        int productId, warehouseId, quantity;
-        String productName, warehouseName;
+        int numLinea = 0;
+        int _productId, _warehouseId, _quantity;
+        String _productName, _warehouseName;
         //String[] parts;
         
-        try ( BufferedReader bufferedReader = new BufferedReader(new FileReader(arxiu)) ) {       
+        try ( BufferedReader bufferedReader = new BufferedReader(new FileReader(arxiu));
+              BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(arxiuLog)) ) {       
             while ((linea = bufferedReader.readLine()) != null) {
                 try {
-                    // format: xxxx  yyyy  zzzz  ...
+                    // format: XXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXX
+                    //         1       9                       33   38                      62
+                    numLinea = numLinea + 1 ;
+                    
                     if (!(linea.isEmpty() || linea.startsWith("#"))) {
-                        productId = Integer.parseInt(linea.substring(0, 8).trim());
-                        productName = linea.substring(8,32).trim();
-                        warehouseId = Integer.parseInt(linea.substring(32, 37).trim());
-                        warehouseName = linea.substring(38, 61).trim();
-                        quantity = Integer.parseInt(linea.substring(61, linea.length()).trim());
+                        _productId = Integer.parseInt(linea.substring(0, 8).trim());
+                        _productName = linea.substring(8,32).trim();
+                        _warehouseId = Integer.parseInt(linea.substring(32, 37).trim());
+                        _warehouseName = linea.substring(37, 61).trim();
+                        _quantity = Integer.parseInt(linea.substring(61, linea.length()).trim());
                         
                         // Products
-                        carregaProducts(productId, productName, products );
+                        carregaProducts(_productId, _productName, products );
                         
                         // Warehouses
-                        carregaWarehouses(warehouseId, warehouseName, quantity, warehouses );
+                        carregaWarehouses(_warehouseId, _warehouseName, _quantity, warehouses );
                         
                     }
                 } catch (NumberFormatException e) {
-                    System.err.println("Error carregant Department: " + e.getMessage());
+                    bufferedWriter.write("Error carregant Línia " + numLinea + ": " + e.getMessage());
+                    bufferedWriter.newLine();
                 } catch (IllegalArgumentException e) {
-                    System.err.println("Error carregant Department: " + e.getMessage());
+                    bufferedWriter.write("Error carregant Línia " + numLinea + ": " + e.getMessage());
+                    bufferedWriter.newLine();
                 }
             }
         } catch (IOException e) {

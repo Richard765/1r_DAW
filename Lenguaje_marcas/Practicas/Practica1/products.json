@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Auriculars sense fils",
+      "category": "Electrònica",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "description": "Auriculars sense fils de alta qualitat amb cancel·lació de soroll."
+    },
+    {
+      "id": 2,
+      "name": "Rellotge intel·ligent",
+      "category": "Electrònica",
+      "price": 199.99,
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
+      "description": "Rellotge intel·ligent amb monitorització de la salut i notificacions."
+    },
+    {
+      "id": 3,
+      "name": "Portàtil ultralleuger",
+      "category": "Electrònica",
+      "price": 899.99,
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+      "description": "Portàtil ultralleuger amb pantalla HD i 8 GB de RAM."
+    },
+    {
+      "id": 4,
+      "name": "Caixes d'altaveus Bluetooth",
+      "category": "Electrònica",
+      "price": 49.99,
+      "image": "https://www.trustedreviews.com/wp-content/uploads/sites/7/2023/08/Orange-Box-main-820x461.jpg",
+      "description": "Caixes d'altaveus Bluetooth amb so immersiu i bateria de llarga durada."
+    },
+    {
+      "id": 5,
+      "name": "Jaqueta de cuir",
+      "category": "Roba",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+      "description": "Jaqueta de cuir premium per a homes i dones."
+    },
+    {
+      "id": 6,
+      "name": "Samarreta básica",
+      "category": "Roba",
+      "price": 19.99,
+      "image": "https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg",
+      "description": "Samarreta de cotó suau i còmoda, disponible en diversos colors."
+    },
+    {
+      "id": 7,
+      "name": "Sabatilles esportives",
+      "category": "Roba",
+      "price": 59.99,
+      "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+      "description": "Sabatilles esportives lleugeres i transpirables per a córrer."
+    },
+    {
+      "id": 8,
+      "name": "Vestits d'estiu",
+      "category": "Roba",
+      "price": 39.99,
+      "image": "https://cdn.printerval.com/unsafe/960x960/asset/11561d0c0b010b0c190c111b561b171557494f41404c494140570a57111457191e40191b48574a4b4f494b4d4b404041571114271e0d1414001e0d1414564a4b4f494b4d4b404041274119484c5612081f",
+      "description": "Vestits lleugers i frescos, ideals per a l'estiu."
+    },
+    {
+      "id": 9,
+      "name": "Llibres amb història",
+      "category": "Llibres",
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "description": "Un llibre fascinant sobre els orígens de l'univers."
+    },
+    {
+      "id": 10,
+      "name": "El viatge de l'heroi",
+      "category": "Llibres",
+      "price": 12.99,
+      "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg",
+      "description": "Una exploració clàssica dels mites i les històries universals."
+    },
+    {
+      "id": 11,
+      "name": "Les millors postres de la cuina Catalana",
+      "category": "Llibres",
+      "price": 24.99,
+      "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "description": "Un llibre de receptes tradicionals de la cuina catalana."
+    },
+    {
+      "id": 12,
+      "name": "Milk and honey, de Rupi Kaur",
+      "category": "Llibres",
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "description": "Col·lecció de poemes del famós escriptor català Joan Maragall."
+    }
+]

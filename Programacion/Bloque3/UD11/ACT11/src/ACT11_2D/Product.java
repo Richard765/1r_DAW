@@ -35,6 +35,7 @@ public class Product implements Comparable<Product> {
         this.numWarehouses = numWarehouses;
     }
 
+    @Override
     public int compareTo(Product o) {
         return this.productName.compareTo(o.productName); // Ordenar per Name
     }

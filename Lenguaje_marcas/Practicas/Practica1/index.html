@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catàleg de Productes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Catàleg de Productes</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inici</a></li>
+          <li><a href="#">Sobre Nosaltres</a></li>
+          <li><a href="#">Contacte</a></li>
+        </ul>
+      </nav>
+      <select id="categoryFilter">
+        <option value="all">Totes les categories</option>
+      </select>
+    </header>
+
+    <main>
+      <div id="productContainer" class="grid-container"></div>
+      <button id="loadMore" class="hidden">Carrega'n Més</button>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> El teu Nom</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
